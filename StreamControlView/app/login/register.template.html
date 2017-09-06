@@ -1,0 +1,31 @@
+﻿<div>
+    <navbar></navbar>
+    <form class="form-horizontal col-lg-8 col-lg-offset-2 ptop" novalidate>
+        <div class="containerEditForm">
+            <h1 style="text-align:center">Register</h1>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Username</label>
+                <div class="col-sm-10">
+                    <input class="form-control" ng-model="vm.userData.userName" />
+                </div>
+                <label class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                    <input class="form-control" ng-model="vm.userData.email" />
+                </div>
+                <label class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                    <input class="form-control" ng-model="vm.userData.password" />
+                </div>
+                <label class="col-sm-2 control-label">Confirm Password</label>
+                <div class="col-sm-10">
+                    <input class="form-control" ng-model="vm.userData.confirmPassword" />
+                </div>
+                <div class="col-sm-8 col-sm-offset-4" style="text-align:right; padding:5px; padding-right:15px;">
+                    <input type="button" class="btn btn-secondary" ng-click="vm.cancel()" value="Cancel" />
+                    <input type="submit" class="btn btn-primary" ng-click="vm.registerUser()" value="Register" />
+                </div>
+            </div>
+        </div>
+    </form>
+    <h1>{{vm.message}}</h1>
+</div>

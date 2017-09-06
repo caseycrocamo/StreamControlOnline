@@ -1,0 +1,38 @@
+﻿<div>
+    <navbar></navbar>
+    <div class="ptop">
+        <div class="panel panel-default">
+            <div class="panel-heading">Scoreboards</div>
+            <div class="panel-body">
+                <div class="list-group">
+                    <div ng-repeat="s in vm.scoreboards" class="list-group-item">
+                        <div class="list-group-item-heading">{{s.Name}}</div>
+                        <div class="list-group-item-text">
+                            <a ui-sref="scoreboard.edit({ scoreboardId: s.ScoreboardID })" href> edit</a>
+                            <button type="button" class="glyphicon glyphicon-remove" ng-click="vm.remove(s.ScoreboardID)"></button>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Views</div>
+                            <div class="panel-body">
+                                <div class="list-group">
+                                    <div ng-repeat="v in s.Views" class="list-group-item">
+                                        <div class="list-group-item-heading">{{v.Name}}</div>
+                                        <div class="list-group-item-text">
+                                            <a ui-sref="scoreboard.view({ scoreboardId: s.ScoreboardID, viewId: v.ViewID })" href> view</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group">
+                    <div class="list-group-item">
+                        <a ui-sref="scoreboardCreate.basics" href=>New Scoreboard</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4>{{vm.message}}</h4>
+    </div>
+</div>

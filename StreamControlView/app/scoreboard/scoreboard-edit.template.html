@@ -1,0 +1,35 @@
+﻿<div>
+    <navbar></navbar>
+    <form class = "form-horizontal ptop" novalidate>
+        <div class="col-lg-6 containerEditForm">
+            <h1 style="text-align:center">Fields</h1>
+            <div class="form-group">
+                <div ng-repeat="f in vm.scoreboard.Fields" class="form-group">
+                    <label class="col-sm-2 control-label">{{f.Label}}</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" ng-model="f.Value" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 containerEditForm">
+            <h1 style="text-align:center">Players</h1>
+            <div class="form-group">
+                <div ng-repeat="p in vm.scoreboard.Players" class="form-group">
+                    <label class="col-sm-2 control-label">{{p.Label}}</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" ng-model="p.Name" />
+                    </div>
+                    <label class="col-sm-2 control-label">Character</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" ng-model="p.Character" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="button" class="btn btn-secondary" ng-click="vm.returnToList()" value="Return To List" />
+        <input type="button" class="btn btn-secondary" ng-click="vm.cancel()" value="Cancel" />
+        <input type="submit" class="btn btn-primary" ng-click="vm.save()" value="Save" />
+    </form>
+    <h1>{{vm.message}}</h1>
+</div>

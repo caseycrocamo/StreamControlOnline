@@ -1,0 +1,683 @@
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\ApplicationInsights.config
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\csc.exe
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\csc.exe.config
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\csc.rsp
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\csi.exe
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\csi.rsp
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\System.AppContext.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\vbc.exe
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\vbc.exe.config
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\vbc.rsp
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\VBCSCompiler.exe
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\StreamControl.dll.config
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\StreamControl.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\StreamControl.pdb
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Antlr3.Runtime.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\EntityFramework.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\EntityFramework.SqlServer.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AI.Web.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.ApplicationInsights.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Newtonsoft.Json.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Owin.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Net.Http.Formatting.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Helpers.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Http.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Http.Owin.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Http.WebHost.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Mvc.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Optimization.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Razor.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.WebPages.Deployment.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.WebPages.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.WebPages.Razor.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\WebGrease.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Newtonsoft.Json.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Net.Http.Formatting.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Helpers.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Http.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Http.WebHost.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Mvc.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Optimization.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Razor.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.WebPages.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.WebPages.Deployment.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.WebPages.Razor.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Antlr3.Runtime.pdb
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\EntityFramework.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\EntityFramework.SqlServer.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Http.Owin.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.ApplicationInsights.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\Microsoft.AI.Web.xml
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\obj\Debug\StreamControlAPI.csprojResolveAssemblyReference.cache
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\obj\Debug\StreamControl.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\obj\Debug\StreamControl.pdb
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Cors.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Http.Cors.dll
+C:\Users\casey\Documents\Visual Studio 2017\Projects\StreamControl\StreamControl\bin\System.Web.Http.Cors.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\ApplicationInsights.config
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\csc.exe
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\csc.exe.config
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\csc.rsp
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\csi.exe
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\csi.exe.config
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\csi.rsp
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.AppContext.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Collections.Immutable.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Console.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Diagnostics.Process.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.IO.Compression.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.IO.FileSystem.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.IO.Pipes.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Reflection.Metadata.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Security.AccessControl.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Security.Claims.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Threading.Thread.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.ValueTuple.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Xml.XPath.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\vbc.exe
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\vbc.exe.config
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\vbc.rsp
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\VBCSCompiler.exe
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\roslyn\VBCSCompiler.exe.config
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\StreamControl.dll.config
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\StreamControl.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\StreamControl.pdb
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Antlr3.Runtime.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\EntityFramework.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\EntityFramework.SqlServer.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AI.DependencyCollector.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AI.Web.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AI.WindowsServer.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.ApplicationInsights.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Configuration.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Configuration.Json.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Primitives.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Google.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Newtonsoft.Json.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Owin.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Net.Http.Formatting.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Cors.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Helpers.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Http.Cors.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Http.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Http.Owin.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Http.WebHost.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Mvc.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Optimization.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Razor.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.WebPages.Deployment.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.WebPages.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.WebPages.Razor.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\WebGrease.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Antlr3.Runtime.pdb
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AI.DependencyCollector.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AI.Web.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AI.WindowsServer.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.ApplicationInsights.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Configuration.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Configuration.Json.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Configuration.UserSecrets.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.FileProviders.Physical.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Primitives.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Google.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Newtonsoft.Json.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Http.Cors.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Net.Http.Formatting.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Helpers.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Http.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Http.WebHost.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Mvc.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Optimization.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Razor.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.WebPages.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.WebPages.Deployment.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.WebPages.Razor.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\EntityFramework.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\EntityFramework.SqlServer.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Web.Http.Owin.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\obj\Debug\StreamControlAPI.csprojResolveAssemblyReference.cache
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\obj\Debug\StreamControl.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\obj\Debug\StreamControl.pdb
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Logging.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Options.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Remotion.Linq.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Collections.Immutable.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Interactive.Async.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Text.Encodings.Web.dll
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Logging.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Microsoft.Extensions.Options.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\Remotion.Linq.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Collections.Immutable.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Interactive.Async.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\bin\System.Text.Encodings.Web.xml
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\obj\Debug\StreamControl.Migrations.InitialCreate.resources
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\obj\Debug\StreamControlAPI.csproj.GenerateResource.Cache
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\obj\Debug\StreamControl.Migrations.removeCssAttribute.resources
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\obj\Debug\StreamControl.Migrations.newInit.resources
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\obj\Debug\StreamControl.Migrations.RoundFix.resources
+D:\Dropbox\Portfolio\CS\StreamControl\StreamControl\obj\Debug\StreamControl.Migrations.Score.resources
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControlAPI.csprojResolveAssemblyReference.cache
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.InitialCreate.resources
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.removeCssAttribute.resources
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.newInit.resources
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.RoundFix.resources
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.Score.resources
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControlAPI.csproj.GenerateResource.Cache
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.pdb
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\ApplicationInsights.config
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csc.exe
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csc.exe.config
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csc.rsp
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csi.exe
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csi.exe.config
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csi.rsp
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.AppContext.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Collections.Immutable.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Console.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Diagnostics.Process.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.IO.Compression.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.IO.FileSystem.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.IO.Pipes.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Reflection.Metadata.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.AccessControl.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Claims.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Threading.Thread.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.ValueTuple.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Xml.XPath.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\vbc.exe
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\vbc.exe.config
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\vbc.rsp
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\VBCSCompiler.exe
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\VBCSCompiler.exe.config
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\StreamControl.dll.config
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\StreamControl.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\StreamControl.pdb
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Antlr3.Runtime.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\EntityFramework.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\EntityFramework.SqlServer.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.DependencyCollector.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.Web.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.WindowsServer.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.ApplicationInsights.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.Json.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Logging.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Options.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Primitives.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Google.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Newtonsoft.Json.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Owin.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Remotion.Linq.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Collections.Immutable.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Interactive.Async.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Net.Http.Formatting.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Text.Encodings.Web.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Cors.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Helpers.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.Cors.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.Owin.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.WebHost.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Mvc.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Optimization.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Razor.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.Deployment.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.Razor.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\WebGrease.dll
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Antlr3.Runtime.pdb
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.DependencyCollector.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.Web.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.WindowsServer.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.ApplicationInsights.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.Json.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.UserSecrets.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileProviders.Physical.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Logging.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Options.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Primitives.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Google.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Newtonsoft.Json.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Remotion.Linq.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Collections.Immutable.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Interactive.Async.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Text.Encodings.Web.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.Cors.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Net.Http.Formatting.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Helpers.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.WebHost.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Mvc.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Optimization.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Razor.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.Deployment.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.Razor.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\EntityFramework.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\EntityFramework.SqlServer.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.Owin.xml
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.ViewUpdate.resources
+D:\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.virtual_collections.resources
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\ApplicationInsights.config
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csc.exe
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csc.exe.config
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csc.rsp
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csi.exe
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csi.exe.config
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\csi.rsp
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.AppContext.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Console.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.IO.Compression.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Claims.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Threading.Thread.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.ValueTuple.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\vbc.exe
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\vbc.exe.config
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\vbc.rsp
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\VBCSCompiler.exe
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\StreamControl.dll.config
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\StreamControl.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\StreamControl.pdb
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Antlr3.Runtime.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\EntityFramework.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\EntityFramework.SqlServer.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.Web.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Logging.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Options.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Newtonsoft.Json.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Owin.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Remotion.Linq.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Collections.Immutable.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Interactive.Async.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Net.Http.Formatting.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Text.Encodings.Web.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Cors.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Helpers.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.Cors.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.Owin.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.WebHost.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Mvc.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Optimization.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Razor.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.Razor.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\WebGrease.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Antlr3.Runtime.pdb
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.Web.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Configuration.UserSecrets.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Logging.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Options.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Newtonsoft.Json.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Remotion.Linq.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Collections.Immutable.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Interactive.Async.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Text.Encodings.Web.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.Cors.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Net.Http.Formatting.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Helpers.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.WebHost.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Mvc.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Optimization.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Razor.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.WebPages.Razor.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\EntityFramework.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\EntityFramework.SqlServer.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\bin\System.Web.Http.Owin.xml
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControlAPI.csprojResolveAssemblyReference.cache
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.InitialCreate.resources
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.removeCssAttribute.resources
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.newInit.resources
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.RoundFix.resources
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.Score.resources
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.ViewUpdate.resources
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.virtual_collections.resources
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControlAPI.csproj.GenerateResource.Cache
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.dll
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.pdb
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControl.Migrations.foreignkeyfix.resources
+C:\Users\ccrocamo\Dropbox\Portfolio\CS\StreamControl_v2\StreamControl\obj\Debug\StreamControlAPI.csproj.CoreCompileInputs.cache

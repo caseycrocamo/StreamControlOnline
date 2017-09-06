@@ -1,0 +1,18 @@
+﻿<h2>Add Elements to your Scoreboard</h2>
+<div class="form-check form-check-inline">
+    <label class="form-check-label">
+        <input type="radio" ng-model="vm.elementType" name="inlineRadioOptions" id="inlineRadio1" value="Field" /> Field
+    </label>
+    <label class="form-check-label">
+        <input type="radio" ng-model="vm.elementType" name="inlineRadioOptions" id="inlineRadio2" value="Player" /> Player
+    </label>
+</div>
+<div class="form-group">
+    <label for="label">Label</label>
+    <input class="form-control" id="label" ng-model="vm.label" />
+</div>
+<div class="form-group">
+    <input type="button" class="btn btn-secondary" ng-click="vm.nextElement()" value="Add Another Element" />
+    <input type="submit" class="btn btn-primary" ng-click="vm.finish()" value="Finish" />
+</div>
+<h4 ng-model="vm.message"></h4>
