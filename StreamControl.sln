@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamControlAPI", "StreamControl\StreamControlAPI.csproj", "{C00E2121-F54E-4810-BA7E-391469AA6AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sifbot", "D:\Dropbox\Portfolio\CS\Sifbot\Sifbot\Sifbot.csproj", "{567A111F-3FB2-414B-B757-1F1D2C2FD65B}"
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StreamControlView(1)", "StreamControlView\", "{7702AB36-9E07-4659-9BC0-EB224A26900F}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StreamControlView", "StreamControlView\", "{7702AB36-9E07-4659-9BC0-EB224A26900F}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51235"
@@ -28,6 +26,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StreamControlView(1)", "Str
 		SlnRelativePath = "StreamControlView\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SifBot", "SifBotV3\SifBot.csproj", "{E87092CB-F5D8-4241-AB3C-87F7232E37CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,16 +38,19 @@ Global
 		{C00E2121-F54E-4810-BA7E-391469AA6AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C00E2121-F54E-4810-BA7E-391469AA6AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C00E2121-F54E-4810-BA7E-391469AA6AFF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{567A111F-3FB2-414B-B757-1F1D2C2FD65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{567A111F-3FB2-414B-B757-1F1D2C2FD65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{567A111F-3FB2-414B-B757-1F1D2C2FD65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{567A111F-3FB2-414B-B757-1F1D2C2FD65B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7702AB36-9E07-4659-9BC0-EB224A26900F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7702AB36-9E07-4659-9BC0-EB224A26900F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7702AB36-9E07-4659-9BC0-EB224A26900F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{7702AB36-9E07-4659-9BC0-EB224A26900F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E87092CB-F5D8-4241-AB3C-87F7232E37CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87092CB-F5D8-4241-AB3C-87F7232E37CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87092CB-F5D8-4241-AB3C-87F7232E37CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87092CB-F5D8-4241-AB3C-87F7232E37CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80739D6B-BC04-4A2C-9808-6F9FB57D0ABC}
 	EndGlobalSection
 EndGlobal
