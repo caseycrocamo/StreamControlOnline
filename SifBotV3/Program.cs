@@ -148,9 +148,9 @@ namespace Sifbot
         static async Task ConnectChallonge()
         {
             PrintConsole("connecting to challonge api...");
-            PrintConsole("connected!");
             challonge.DefaultRequestHeaders.Accept.Clear();
             challonge.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            PrintConsole("connected!");
         }
 
         public static async Task<HttpResponseMessage> AddParticipant(Participant p, string tournamentUri)

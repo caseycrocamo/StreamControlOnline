@@ -1,6 +1,4 @@
-﻿body {
-}
-.containerEditForm {
+﻿.containerEditForm {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -12,4 +10,81 @@
 }
 .ptop {
     padding-top:60px;
+}
+.scoreboardContainer {
+    background-color: indianred;
+    margin: 10px;
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 0;
+    overflow: hidden
+}
+.scoreboardContainer a{
+    text-decoration:none;
+}
+.scoreboardTitle {
+    width:100%;
+    height:30px;
+    background-color:lightblue;
+}
+.titleWord {
+    margin: 5px;
+    float: left;
+    margin-left: 10px;
+}
+.titleIconContainer{
+    width:15%;
+    height:100%;
+    margin-left:85%;
+    padding:10px, 0px;
+    text-align:right;
+}
+.titleIcon {
+    float:right;
+    font-size:20px;
+    margin:5px;
+    margin-right:10px;
+}
+.scoreboardBody {
+    width:100%;
+    height: 270px;
+    background-color: #cdcdcd;
+}
+.viewPanelBrowser {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.viewItemBackground{
+    width:100%;
+    height:100%;
+    padding:0;
+}
+.viewItem{
+    width:100%;
+    height:100%;
+    padding:0;
+}
+.viewItemTitle {
+    background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,0));
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    color:white;
+}
+.viewItemBody{
+    background-color:yellow;
+    height:100%;
+    width:100%;
+}
+.viewItemBody:hover {
+    background-color: rgba(0,0,0,.5);
+}
+#createGlyph{
+    width:100%;
+    height:100%;
+    text-align:center;
+    padding-top:15%;
+    font-size:60px;
 }
