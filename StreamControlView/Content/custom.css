@@ -34,10 +34,10 @@
     margin-left: 10px;
 }
 .titleIconContainer{
-    width:15%;
+    width:25%;
     height:100%;
-    margin-left:85%;
-    padding:10px, 0px;
+    margin-left:75%;
+    padding:10px, 0;
     text-align:right;
 }
 .titleIcon {
@@ -67,18 +67,47 @@
     padding:0;
 }
 .viewItemTitle {
-    background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,0));
+    background: linear-gradient(to bottom, rgba(0,0,0,.2), rgba(0,0,0,0));
     text-align: center;
     width: 100%;
-    height: 50%;
+    height: 25%;
     color:white;
 }
 .viewItemBody{
+    cursor: pointer;
     background-color:yellow;
     height:100%;
     width:100%;
 }
+.viewItemLeft {
+    color: white;
+    height: 75%;
+    text-align: center;
+    font-size: 20px;
+    width: 20%;
+    float: left;
+    padding-top: 5%;
+}
+.viewItemCenter {
+    color: white;
+    height: 75%;
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+    float: left;
+    padding-top:5%;
+}
+.viewItemRight {
+    color: white;
+    height: 75%;
+    text-align: center;
+    font-size: 20px;
+    width: 20%;
+    float: right;
+    padding-top: 5%;
+}
 .viewItemBody:hover {
+    background-color: black;
     background-color: rgba(0,0,0,.5);
 }
 #createGlyph{

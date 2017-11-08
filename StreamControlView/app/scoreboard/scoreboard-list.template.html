@@ -8,7 +8,7 @@
                         <div class="scoreboardTitle">
                             <h4 class="titleWord">{{s.Name}}</h4>
                             <div class="titleIconContainer">
-                                <div class="glyphicon glyphicon-remove titleIcon" ng-click="vm.remove(s.ScoreboardID)"></div>
+                                <div style="cursor:pointer;" class="glyphicon glyphicon-remove titleIcon" ng-click="vm.remove(s.ScoreboardID)"></div>
                                 <a class="glyphicon glyphicon-cog titleIcon" ui-sref="scoreboard.edit({ scoreboardId: s.ScoreboardID })" href></a>
                             </div>
                         </div>
@@ -18,7 +18,15 @@
                                     <div ng-repeat="v in s.Views" class="viewItem">
                                         <div class="viewItemBody">
                                             <div class="viewItemTitle">{{v.Name}}</div>
-                                            <a ui-sref="scoreboard.view({ scoreboardId: s.ScoreboardID, viewId: v.ViewID })" href></a>
+                                            <div class="viewItemLeft">
+                                                <div class="glyphicon glyphicon-chevron-left"></div>
+                                            </div>
+                                            <div class="viewItemCenter" ui-sref="scoreboard.view({ scoreboardId: s.ScoreboardID, viewId: v.ViewID })" href>
+                                                <div class="glyphicon glyphicon-eye-open"></div>
+                                            </div>
+                                            <div class="viewItemRight">
+                                                <div class="glyphicon glyphicon-chevron-right"></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
