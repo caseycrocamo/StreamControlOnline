@@ -84,6 +84,17 @@
                 template: '<element scoreboard="$resolve.scoreboard"></element>'
             },
             {
+                name: "scoreboardCreate.view",
+                url: "/view",
+                params: { scoreboard: null },
+                resolve: {
+                    scoreboard: function ($stateParams) {
+                        return $stateParams.scoreboard;
+                    }
+                },
+                template: '<view scoreboard="$resolve.scoreboard"></view>'
+            },
+            {
                 name: "scoreboard",
                 url: "/scoreboard/{scoreboardId}",
                 resolve: {
