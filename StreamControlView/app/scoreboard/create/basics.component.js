@@ -18,17 +18,18 @@
                 vm.save = function () {
                     vm.message = "saving...";
                     vm.scoreboard.Name = vm.name;
-                    scoreboardResource.create(vm.scoreboard)
-                        .$promise
-                        .then(
-                            //on success
-                        function (data) {
-                            $state.go("^.element", { scoreboardId: data.ScoreboardID });
-                        },
-                            //on failure
-                        function () {
-                        vm.message = "creation failed";
-                    });
+                    //scoreboardResource.create(vm.scoreboard)
+                    //    .$promise
+                    //    .then(
+                    //        //on success
+                    //    function (data) {
+                    //        $state.go("^.element", { scoreboardId: data.ScoreboardID });
+                    //    },
+                    //        //on failure
+                    //    function () {
+                    //    vm.message = "creation failed";
+                    //});
+                    $state.go("scoreboardCreate.element", { scoreboard: vm.scoreboard });
                 };
 
             }

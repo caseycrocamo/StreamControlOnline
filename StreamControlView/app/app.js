@@ -74,13 +74,14 @@
             },
             {
                 name: "scoreboardCreate.element",
-                url: "/element/{scoreboardId}",
+                url: "/element",
+                params: { scoreboard: null },
                 resolve: {
-                    scoreboardId: function ($stateParams) {
-                        return $stateParams.scoreboardId;
+                    scoreboard: function ($stateParams) {
+                        return $stateParams.scoreboard;
                     }
                 },
-                template: '<element scoreboard-id="$resolve.scoreboardId"></element>'
+                template: '<element scoreboard="$resolve.scoreboard"></element>'
             },
             {
                 name: "scoreboard",
