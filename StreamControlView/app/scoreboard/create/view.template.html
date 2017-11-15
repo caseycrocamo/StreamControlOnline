@@ -1,10 +1,14 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
-
-</body>
-</html>
+﻿<div class="col-lg-6 col-lg-offset-3">
+    <h4>Views</h4>
+    <div ng-repeat="v in vm.views">
+        <input class="form-control" id="name" placeholder="Name" ng-model="v.Name" />
+    </div>
+    <div style="width: 100%; height: 35px; cursor: pointer" class="glyphicon glyphicon-plus" ng-click="vm.addView()"></div>
+</div>
+<div class="col-lg-12">
+    <div class="form-group">
+        <input type="button" class="btn btn-secondary" ng-click="vm.returnToList()" value="Return To List" />
+        <button type="submit" class="btn btn-primary" ng-click="vm.save()">Continue</button>
+    </div>
+</div>
+<h1>{{vm.message}}</h1>

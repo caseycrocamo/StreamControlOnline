@@ -17,11 +17,11 @@
                                 <div class="viewItemBackground">
                                     <div ng-repeat="v in s.Views" class="viewItem">
                                         <div class="viewItemBody">
-                                            <div class="viewItemTitle">{{v.Name}}</div>
+                                            <div class="viewItemTitle" ui-sref="scoreboard.view({ scoreboardId: s.ScoreboardID, viewId: v.ViewID })" href>{{v.Name}}</div>
                                             <div class="viewItemLeft">
                                                 <div class="glyphicon glyphicon-chevron-left"></div>
                                             </div>
-                                            <div class="viewItemCenter" ui-sref="scoreboard.view({ scoreboardId: s.ScoreboardID, viewId: v.ViewID })" href>
+                                            <div class="viewItemCenter" ui-sref="scoreboard.viewEdit({ scoreboardId: s.ScoreboardID, viewId: v.ViewID })" href>
                                                 <div class="glyphicon glyphicon-eye-open"></div>
                                             </div>
                                             <div class="viewItemRight">

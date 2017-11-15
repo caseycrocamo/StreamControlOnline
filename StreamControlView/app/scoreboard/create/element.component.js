@@ -30,17 +30,6 @@
             vm.save = function () {
                 vm.scoreboard.Players = vm.players;
                 vm.scoreboard.Fields = vm.fields;
-                //scoreboardResource.create(vm.scoreboard)
-                //    .$promise
-                //    .then(
-                //        //on success
-                //    function (data) {
-                //        $state.go("^.element", { scoreboardId: data.ScoreboardID });
-                //    },
-                //        //on failure
-                //    function () {
-                //    vm.message = "creation failed";
-                //});
                 $state.go("scoreboardCreate.view", { scoreboard: vm.scoreboard });
             };
         }],

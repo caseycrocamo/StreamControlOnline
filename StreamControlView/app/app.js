@@ -105,6 +105,16 @@
                 template: '<scoreboard scoreboard-id="$resolve.scoreboardId"></scoreboard>'
             },
             {
+                name: "scoreboard.edit",
+                url: "/edit",
+                resolve: {
+                    scoreboardId: function ($stateParams) {
+                        return $stateParams.scoreboardId;
+                    }
+                },
+                template: '<scoreboard-edit scoreboard-id="$resolve.scoreboardId"></scoreboard-edit>'
+            },
+            {
                 name: "scoreboard.view",
                 url: "/view/{viewId}",
                 resolve: {
@@ -118,14 +128,17 @@
                 template: '<scoreboard-view scoreboard-id="$resolve.scoreboardId" view-id="$resolve.viewId"></scoreboard-view>'
             },
             {
-                name: "scoreboard.edit",
-                url: "/edit",
+                name: "scoreboard.viewEdit",
+                url: "/view/{viewId}/edit",
                 resolve: {
                     scoreboardId: function ($stateParams) {
                         return $stateParams.scoreboardId;
+                    },
+                    viewId: function ($stateParams) {
+                        return $stateParams.viewId;
                     }
                 },
-                template: '<scoreboard-edit scoreboard-id="$resolve.scoreboardId"></scoreboard-edit>'
+                template: '<view-edit scoreboard-id="$resolve.scoreboardId" view-id="$resolve.viewId"></view-edit>'
             }
         ];
         states.forEach(function (state) {

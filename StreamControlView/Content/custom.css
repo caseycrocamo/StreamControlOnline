@@ -117,3 +117,11 @@
     padding-top:15%;
     font-size:60px;
 }
+.board {
+    position:relative;
+    width:75%;
+    height:auto;
+    min-width:854px;
+    min-height:480px;
+    border:1px dashed blue;
+}
