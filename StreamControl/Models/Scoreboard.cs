@@ -13,7 +13,5 @@ namespace StreamControl.Models
         public virtual ICollection<Field> Fields { get; set; }
         public virtual ICollection<Player> Players { get; set; }
         public virtual ICollection<View> Views { get; set; }
-        public int Width { get; set; }
-        public int Height { get; set; }
     }
 }

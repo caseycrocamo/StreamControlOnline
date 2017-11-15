@@ -9,6 +9,8 @@ namespace StreamControl.Models
     {
         public int ViewID { get; set; }
         public string Name { get; set; }
+        public int Width { get; set; }
+        public int Height { get; set; }
         public virtual ICollection<Style> Style { get; set; }
         public int ScoreboardID { get; set; }
     }
