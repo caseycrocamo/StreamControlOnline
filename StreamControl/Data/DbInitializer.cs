@@ -26,9 +26,9 @@ namespace StreamControl.Data
                     Display = "block",
                     Position = "absolute",
                     Color="red",
-                    Left="40px",
-                    Top="710px",
-                    Width="470px",
+                    Left="2%",
+                    Top="66%",
+                    Width="20%",
                     FontSize="36px",
                     TextAlign="left"
                 },
@@ -38,9 +38,9 @@ namespace StreamControl.Data
                     Display = "block",
                     Position = "absolute",
                     Color = "red",
-                    Left = "770px",
-                    Top = "710px",
-                    Width = "470px",
+                    Left = "78%",
+                    Top = "66%",
+                    Width = "20%",
                     FontSize = "36px",
                     TextAlign = "right"
                 },
@@ -50,9 +50,9 @@ namespace StreamControl.Data
                     Display = "block",
                     Position = "absolute",
                     Color = "blue",
-                    Left = "40px",
-                    Top = "40px",
-                    Width = "300px",
+                    Left = "5%",
+                    Top = "5%",
+                    Width = "20%",
                     FontSize = "30px",
                     TextAlign = "center"
                 },
@@ -62,9 +62,9 @@ namespace StreamControl.Data
                     Display = "block",
                     Position = "absolute",
                     Color = "blue",
-                    Left = "510px",
-                    Top = "700px",
-                    Width = "70px",
+                    Left = "27%",
+                    Top = "66%",
+                    Width = "4%",
                     FontSize = "30px",
                     TextAlign = "center"
                 },
@@ -74,9 +74,9 @@ namespace StreamControl.Data
                     Display = "block",
                     Position = "absolute",
                     Color = "blue",
-                    Left = "700px",
-                    Top = "700px",
-                    Width = "70px",
+                    Left = "74%",
+                    Top = "66%",
+                    Width = "4%",
                     FontSize = "30px",
                     TextAlign = "center"
                 }
@@ -86,7 +86,9 @@ namespace StreamControl.Data
                 new View
                 {
                     Name="In Game",
-                    Style=styles
+                    Style=styles,
+                    Width = 1280,
+                    Height = 720
                 }
             };
 

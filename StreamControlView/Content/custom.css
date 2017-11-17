@@ -119,9 +119,19 @@
 }
 .board {
     position:relative;
+    display:inline-block;
     width:75%;
     height:auto;
     min-width:854px;
     min-height:480px;
-    border:1px dashed blue;
+    border:1px solid blue;
+    margin:auto;
+}
+.styleEditPane {
+    position: relative;
+    display:inline-block;
+    width:24%;
+    height: auto;
+    padding:10px;
+    margin:auto;
 }

@@ -1,6 +1,14 @@
 ﻿<navbar></navbar>
 <div class="ptop">
     <div class="board">
-        <scoreboard-view scoreboard-id="vm.scoreboardId" view-id="vm.viewId"></scoreboard-view>
+        <scoreboard-view show-box="true" scoreboard-id="vm.scoreboardId" view-id="vm.viewId" current-selection="vm.currentSelection(event)"></scoreboard-view>
+    </div>
+    <div class="styleEditPane">
+        <div ng-repeat="(key, value) in vm.currentStyle">
+            <label class="control-label">{{key}}</label>
+            <div>
+                <input class="form-control" ng-model="value" />
+            </div>
+        </div>
     </div>
 </div>

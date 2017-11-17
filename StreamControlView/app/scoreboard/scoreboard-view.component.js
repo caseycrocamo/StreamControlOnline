@@ -3,7 +3,9 @@
         {
             bindings: {
                 scoreboardId: "<",
-                viewId: "<"
+                viewId: "<",
+                currentSelection: '&',
+                showBox: '<'
             },
             controllerAs: "vm",
             controller: ["scoreboardResource","authService", "$scope", function (scoreboardResource, authService, $scope) {
@@ -21,7 +23,8 @@
                                     vm.view = vm.scoreboard.Views[i];
                                 }
                             };
-                        })
+                        });
+                    
                 };
 
                 $scope.$on('ngRepeatFinished', function (ngRepeatFinishedEvent) {
@@ -30,6 +33,9 @@
                         angular.forEach(vm.view.Style[i], function (value, key) {
                             if (key != "StyleID" && key != "DivID" && value != null) {
                                 cssString += key + ":" + value + ";";
+                            }
+                            if (vm.showBox) {
+                                cssString += "outline:1px dashed black;";
                             }
                         });
                         console.log(cssString);

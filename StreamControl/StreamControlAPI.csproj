@@ -363,6 +363,10 @@
     <Compile Include="Migrations\201708141808455_foreignkeyfix.Designer.cs">
       <DependentUpon>201708141808455_foreignkeyfix.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711150018137_WidthandHeightinView.cs" />
+    <Compile Include="Migrations\201711150018137_WidthandHeightinView.Designer.cs">
+      <DependentUpon>201711150018137_WidthandHeightinView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -497,6 +501,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708141808455_foreignkeyfix.resx">
       <DependentUpon>201708141808455_foreignkeyfix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711150018137_WidthandHeightinView.resx">
+      <DependentUpon>201711150018137_WidthandHeightinView.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

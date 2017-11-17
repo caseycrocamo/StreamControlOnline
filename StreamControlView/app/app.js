@@ -146,6 +146,18 @@
         });
     });
 
+    app.filter('getById', function () {
+        return function (input, id) {
+            let i = 0, len = input.length;
+            for (; i < len; i++) {
+                if (input[i].DivID === id) {
+                    return input[i];
+                }
+            }
+            return null;
+        }
+    });
+
     app.directive('onFinishRender', function ($timeout) {
         return {
             restrict: 'A',
