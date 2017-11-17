@@ -1,14 +1,19 @@
 ﻿<navbar></navbar>
 <div class="ptop">
-    <div class="board">
-        <scoreboard-view show-box="true" scoreboard-id="vm.scoreboardId" view-id="vm.viewId" current-selection="vm.currentSelection(event)"></scoreboard-view>
+    <div class="fixedAspectRatioContainer">
+        <div class="board">
+            <scoreboard-view show-box="true" scoreboard-id="vm.scoreboardId" view-id="vm.viewId" current-selection="vm.currentSelection(event)"></scoreboard-view>
+        </div>
     </div>
     <div class="styleEditPane">
-        <div ng-repeat="(key, value) in vm.currentStyle">
+        <div ng-repeat="(key, value) in vm.currentStyle" ng-if="key !== 'StyleID' && key !== 'DivID' && key !== 'Display' && key !== 'Position'">
             <label class="control-label">{{key}}</label>
             <div>
                 <input class="form-control" ng-model="value" />
             </div>
         </div>
+        <input type="button" class="btn btn-secondary" ng-click="vm.returnToList()" value="Return To List" />
+        <input type="button" class="btn btn-secondary" ng-click="vm.cancel()" value="Cancel" />
+        <input type="submit" class="btn btn-primary" ng-click="vm.save()" value="Save" />
     </div>
 </div>

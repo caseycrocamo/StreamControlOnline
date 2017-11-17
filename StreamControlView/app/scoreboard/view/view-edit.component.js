@@ -24,6 +24,7 @@
                                 }
                             };
                         })
+
                     $scope.$watch('vm.currentId', currentIdChanged);
                 };
 
@@ -33,15 +34,34 @@
                     vm.currentId = id;
                 };
 
-                
+                vm.cancel = function () {
+                    vm.currentStyle = vm.originalStyle;
+                    vm.message = "Changes Reverted";
+                };
+
+                vm.returnToList = function () {
+                    $location.path("/scoreboards");
+                };
+
+                vm.save = function () {
+                    vm.message = "saving...";
+                    scoreboardResource.updateStyle({ id: vm.currentStyle.StyleID }, vm.currentStyle).$promise.then(function () {
+                        vm.message = "wow you saved!";
+                        scoreboardResource.get({ id: vm.scoreboardId }).$promise.then(function (data) {
+                            vm.scoreboard = data;
+                            vm.originalScoreboard = angular.copy(data);
+                        });
+                    });
+                };
 
                 function currentIdChanged() {
                     if (vm.view !== undefined) {
-                        var filtered = $filter('getById')(vm.view.Style, vm.currentId);
-                        console.log(filtered);
-                        vm.currentStyle = filtered;
+                        let styleObj = $filter('getById')(vm.view.Style, vm.currentId);
+                        vm.originalStyle = styleObj;
+                        vm.currentStyle = styleObj;
                     };
                 };
+
                 
             }],
             templateUrl: "app/scoreboard/view/view-edit.template.html"

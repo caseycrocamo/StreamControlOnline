@@ -138,6 +138,26 @@ namespace StreamControl.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
+        // PUT: api/Scoreboards/Style
+        [HttpPut]
+        [Route("api/Scoreboards/Style")]
+        [ResponseType(typeof(void))]
+        public async Task<IHttpActionResult> PutStyle(int id, Style style)
+        {
+            Style _style = await db.Styles.FirstOrDefaultAsync(i => i.StyleID == id);
+            _style = style;
+            try
+            {
+                await db.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                throw;
+            }
+
+            return StatusCode(HttpStatusCode.NoContent);
+        }
+
         // POST: api/Scoreboards
         [ResponseType(typeof(Scoreboard))]
         public async Task<IHttpActionResult> PostScoreboard(Scoreboard scoreboard)

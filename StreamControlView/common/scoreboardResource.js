@@ -12,7 +12,8 @@
                 "create": { method: "POST", url: appSettings.serverPath + "api/Scoreboards" },
                 "update": { method: "PUT" },
                 "updateField": { method: "PUT", url: appSettings.serverPath + "api/Scoreboards/Field" },
-                "updatePlayer": { method: "PUT", url: appSettings.serverPath + "api/Scoreboards/Player" }
+                "updatePlayer": { method: "PUT", url: appSettings.serverPath + "api/Scoreboards/Player" },
+                "updateStyle": { method: "PUT", url: appSettings.serverPath + "api/Scoreboards/Style" }
             });
     }
 }());
