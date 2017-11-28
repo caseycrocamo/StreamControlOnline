@@ -14,6 +14,11 @@
                 authService.logOut();
                 location.reload();
             };
+
+            $(".nav li").click(function () {
+                $(".nav li").find(".active").removeClass("active");
+                $(this).parent().addClass("active");
+            });
         }],
         templateUrl: "app/nav/navbar.template.html"
     });

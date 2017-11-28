@@ -60,7 +60,13 @@
             {
                 name: "scoreboards",
                 url: "/scoreboards",
-                template: '<scoreboard-list></scoreboard-list>'
+                resolve: {
+                    username: function (authService) {
+                        authService.fillAuthData();
+                        return authService.authentication.userName;
+                    }
+                },
+                template: '<scoreboard-list username="$resolve.username"></scoreboard-list>'
             },
             {
                 name: "scoreboardCreate",

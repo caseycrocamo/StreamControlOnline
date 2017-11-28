@@ -2,16 +2,16 @@
     angular.module("main").component("scoreboardList",
         {
             bindings: {
-                scoreboards: "<"
+                username: "<"
             },
             controllerAs: "vm",
-            controller: ["scoreboardResource", "authService", function (scoreboardResource, authService) {
+            controller: ["scoreboardResource", function (scoreboardResource) {
                 var vm = this;
                 vm.message = "";
                 
                 vm.$onInit = function () {
-                    vm.user = authService.authentication;
-                    scoreboardResource.getAll({ username: vm.user.userName })
+                    vm.scoreboards = {};
+                    scoreboardResource.getAll({ username: vm.username })
                         .$promise.then(function (data) {
                             vm.scoreboards = data;
                         });
@@ -19,7 +19,7 @@
                 vm.remove = function (_id) {
                     scoreboardResource.remove({ id: _id })
                         .$promise.then(function () {
-                            scoreboardResource.getAll({ username: vm.user.userName })
+                            scoreboardResource.getAll({ username: vm.username })
                                 .$promise.then(function (data) {
                                     vm.scoreboards = data;
                                 });
