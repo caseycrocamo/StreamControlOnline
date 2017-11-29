@@ -331,43 +331,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201707212147460_InitialCreate.cs" />
-    <Compile Include="Migrations\201707212147460_InitialCreate.Designer.cs">
-      <DependentUpon>201707212147460_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201707241825112_removeCssAttribute.cs" />
-    <Compile Include="Migrations\201707241825112_removeCssAttribute.Designer.cs">
-      <DependentUpon>201707241825112_removeCssAttribute.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201707241908117_newInit.cs" />
-    <Compile Include="Migrations\201707241908117_newInit.Designer.cs">
-      <DependentUpon>201707241908117_newInit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201707241934289_RoundFix.cs" />
-    <Compile Include="Migrations\201707241934289_RoundFix.Designer.cs">
-      <DependentUpon>201707241934289_RoundFix.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201707242314447_Score.cs" />
-    <Compile Include="Migrations\201707242314447_Score.Designer.cs">
-      <DependentUpon>201707242314447_Score.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201708092331068_View Update.cs" />
-    <Compile Include="Migrations\201708092331068_View Update.Designer.cs">
-      <DependentUpon>201708092331068_View Update.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201708092334364_virtual_collections.cs" />
-    <Compile Include="Migrations\201708092334364_virtual_collections.Designer.cs">
-      <DependentUpon>201708092334364_virtual_collections.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201708141808455_foreignkeyfix.cs" />
-    <Compile Include="Migrations\201708141808455_foreignkeyfix.Designer.cs">
-      <DependentUpon>201708141808455_foreignkeyfix.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201711150018137_WidthandHeightinView.cs" />
-    <Compile Include="Migrations\201711150018137_WidthandHeightinView.Designer.cs">
-      <DependentUpon>201711150018137_WidthandHeightinView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Field.cs" />
@@ -417,9 +380,6 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-route.min.js.map" />
     <Content Include="Scripts\angular-resource.min.js.map" />
@@ -476,35 +436,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-3.1.1.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201707212147460_InitialCreate.resx">
-      <DependentUpon>201707212147460_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201707241825112_removeCssAttribute.resx">
-      <DependentUpon>201707241825112_removeCssAttribute.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201707241908117_newInit.resx">
-      <DependentUpon>201707241908117_newInit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201707241934289_RoundFix.resx">
-      <DependentUpon>201707241934289_RoundFix.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201707242314447_Score.resx">
-      <DependentUpon>201707242314447_Score.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201708092331068_View Update.resx">
-      <DependentUpon>201708092331068_View Update.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201708092334364_virtual_collections.resx">
-      <DependentUpon>201708092334364_virtual_collections.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201708141808455_foreignkeyfix.resx">
-      <DependentUpon>201708141808455_foreignkeyfix.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201711150018137_WidthandHeightinView.resx">
-      <DependentUpon>201711150018137_WidthandHeightinView.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

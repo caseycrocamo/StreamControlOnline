@@ -12,13 +12,17 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using DSharpPlus.Entities;
 using DSharpPlus;
+using System.IO;
 
 namespace Sifbot
 {
     class Program
     {
+        //load keys.json
+        static List<Key> _keys = LoadKeys();
+
         //user and pass for challonge
-        public static string challonge_api_key = "Dd8QMcIxdxUZ2qi3OwDfZnFOvydlG3UBoVA7Rmkz";
+        public static string challonge_api_key = _keys.Find(a => a.ApiName == "Challonge").ApiKey;
         public static string challongeUser = "sifcif";
 
         //create handler to authenticate with challonge api
@@ -57,7 +61,7 @@ namespace Sifbot
             {
                 AutoReconnect = true,
                 LargeThreshold = 250,
-                Token = "MzI3NjI2NjE1MDg3NTYyNzUy.DC4Fsg.byuX04Ww5gZySq9UVuO3dbIJpeY",
+                Token = _keys.Find(a => a.ApiName == "Discord").ApiKey,
                 TokenType = TokenType.Bot,
                 UseInternalLogHandler = false
             });
@@ -192,6 +196,15 @@ namespace Sifbot
             return byteContent;
         }
 
+        public static List<Key> LoadKeys()
+        {
+            using (StreamReader r = new StreamReader("keys.json"))
+            {
+                string json = r.ReadToEnd();
+                return JsonConvert.DeserializeObject<List<Key>>(json);
+            }
+        }
+
     }
     public class CommandLoader
     {
@@ -265,9 +278,10 @@ namespace Sifbot
             {
                 await ctx.RespondAsync($"removal has failed, please check to be sure that you are registered for the tournament with the same name as your discord nickname, then contact @Tournament Organizers (TOs)");
             }
-        }
-
+        } 
     }
+
+
     public class Participant
     {
         public Participant() { }
@@ -290,6 +304,20 @@ namespace Sifbot
     {
         [JsonProperty("participant")]
         public Participant Participant { get; set; }
+    }
+
+    public class Key
+    {
+        public string ApiName { get; set; }
+        public string ApiKey { get; set; }
+
+        public Key() { }
+
+        public Key(string apiName, string apiKey)
+        {
+            ApiName = apiName;
+            ApiKey = apiKey;
+        }
     }
 
 }
