@@ -1,8 +1,0 @@
-<input type="submit" class="btn btn-primary" ng-click="vm.delete()" value="delete" />
-
-vm.delete = function () {
-    vm.message = "deleting...";
-    scoreboardResource.remove({ id: vm.scoreboardId }).$promise.then(function () {
-        vm.message = "Scoreboard (" + vm.scoreboardName + ") deleted successfully!";
-    });
-}
