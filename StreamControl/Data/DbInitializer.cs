@@ -103,18 +103,18 @@ namespace StreamControl.Data
             //}
             //context.SaveChanges();
 
-            Field[] fields = 
+            Element[] fields = 
             {
-                new Field{Label="Round", Value="Winners Round 1 BO3"},
-                new Field{Label="Score1", Value="1"},
-                new Field{Label="Score2", Value="2"}
+                new Element{Label="Round", Value="Winners Round 1 BO3"},
+                new Element{Label="Score1", Value="1"},
+                new Element{Label="Score2", Value="2"}
             };
             //foreach (Field f in fields)
             //{
             //    context.Fields.Add(f);
             //}
             //context.SaveChanges();
-            Scoreboard scoreboard = new Scoreboard
+            Overlay scoreboard = new Overlay
             {
                 Name = "Test Table",
                 OwnerID = "test@gmail.com",

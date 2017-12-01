@@ -1,6 +1,6 @@
 ﻿namespace StreamControl.Models
 {
-    public class Field
+    public class Element
     {
         public int FieldID { get; set; }
         public string Label { get; set; }

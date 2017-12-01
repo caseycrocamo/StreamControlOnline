@@ -1,26 +1,26 @@
 ﻿(function () {
-    angular.module("main").component("scoreboardView",
+    angular.module("main").component("overlayView",
         {
             bindings: {
-                scoreboardId: "<",
+                overlayId: "<",
                 viewId: "<",
                 currentSelection: '&',
                 showBox: '<'
             },
             controllerAs: "vm",
-            controller: ["scoreboardResource","authService", "$scope", function (scoreboardResource, authService, $scope) {
+            controller: ["overlayResource","authService", "$scope", function (overlayResource, authService, $scope) {
                 var vm = this;
-                vm.scoreboard = null;
+                vm.overlay = null;
                 vm.message = "loading...";
                 vm.$onInit = function () {
-                    scoreboardResource.get({ id: vm.scoreboardId })
+                    overlayResource.get({ id: vm.overlayId })
                         .$promise
                         .then(function (data) {
                             vm.message = "";
-                            vm.scoreboard = data;
-                            for (let i = 0; i < vm.scoreboard.Views.length; i++) {
-                                if (vm.scoreboard.Views[i].ViewID == vm.viewId) {
-                                    vm.view = vm.scoreboard.Views[i];
+                            vm.overlay = data;
+                            for (let i = 0; i < vm.overlay.Views.length; i++) {
+                                if (vm.overlay.Views[i].ViewID == vm.viewId) {
+                                    vm.view = vm.overlay.Views[i];
                                 }
                             };
                         });
@@ -43,6 +43,6 @@
                     }
                 });
             }],
-            templateUrl: "app/scoreboard/scoreboard-view.template.html"
+            templateUrl: "app/overlay/overlay-view.template.html"
         });
 }());

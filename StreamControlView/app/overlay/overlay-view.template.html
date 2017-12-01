@@ -1,9 +1,9 @@
 ﻿<div name="board">
     <h1>{{vm.message}}</h1>
-    <div ng-repeat="field in vm.scoreboard.Fields">
+    <div ng-repeat="field in vm.overlay.Fields">
         <div ng-click="vm.currentSelection({event : $event})" id="{{field.Label}}">{{field.Value}}</div>
     </div>
-    <div ng-repeat="player in vm.scoreboard.Players" on-finish-render="ngRepeatFinished">
+    <div ng-repeat="player in vm.overlay.Players" on-finish-render="ngRepeatFinished">
         <div ng-click="vm.currentSelection({event : $event})" id="{{player.Label}}">{{player.Name}}</div>
     </div>
 </div>

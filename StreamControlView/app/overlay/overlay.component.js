@@ -1,13 +1,13 @@
 ﻿(function () {
-    angular.module("main").component("scoreboard",
+    angular.module("main").component("overlay",
         {
             bindings: {
-                scoreboardId: "<"
+                overlayId: "<"
             },
             controllerAs: "vm",
             controller: [function () {
                 var vm = this;
             }],
-            templateUrl: "app/scoreboard/scoreboard.template.html"
+            templateUrl: "app/overlay/overlay.template.html"
         });
 }());

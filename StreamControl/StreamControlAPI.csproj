@@ -333,11 +333,11 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Field.cs" />
+    <Compile Include="Models\Element.cs" />
     <Compile Include="Models\RequireHttpsAttribute.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Player.cs" />
-    <Compile Include="Models\Scoreboard.cs" />
+    <Compile Include="Models\Overlay.cs" />
     <Compile Include="Models\Style.cs" />
     <Compile Include="Models\View.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

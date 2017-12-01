@@ -1,9 +1,9 @@
 ﻿(function () {
     angular.module("main").component("basics", {
         controllerAs: "vm",
-        controller: ["scoreboardResource", "$state", "$timeout", "authService", function (scoreboardResource, $state, $timeout, authService) {
+        controller: ["overlayResource", "$state", "$timeout", "authService", function (overlayResource, $state, $timeout, authService) {
             var vm = this;
-            vm.scoreboard = {
+            vm.overlay = {
                 Name : '',
                 OwnerId : authService.authentication.userName
             };
@@ -12,18 +12,18 @@
 
             vm.$onInit = function () {
                 vm.returnToList = function () {
-                    $state.go("scoreboards");
+                    $state.go("overlays");
                 };
 
                 vm.save = function () {
                     vm.message = "saving...";
-                    vm.scoreboard.Name = vm.name;
+                    vm.overlay.Name = vm.name;
                     
-                    $state.go("scoreboardCreate.element", { scoreboard: vm.scoreboard });
+                    $state.go("overlayCreate.element", { overlay: vm.overlay });
                 };
 
             }
         }],
-        templateUrl: "app/scoreboard/create/basics.template.html"
+        templateUrl: "app/overlay/create/basics.template.html"
     });
 }());
