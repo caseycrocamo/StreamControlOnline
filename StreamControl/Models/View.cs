@@ -12,6 +12,6 @@ namespace StreamControl.Models
         public int Width { get; set; }
         public int Height { get; set; }
         public virtual ICollection<Style> Style { get; set; }
-        public int ScoreboardID { get; set; }
+        public int OverlayID { get; set; }
     }
 }

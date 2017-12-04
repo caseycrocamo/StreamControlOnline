@@ -2,7 +2,7 @@
     angular.module("main").component("viewEdit",
         {
             bindings: {
-                overlayId: "<",
+                OverlayID: "<",
                 viewId: "<"
             },
             controllerAs: "vm",
@@ -13,7 +13,7 @@
                 vm.currentId = "";
                 vm.currentStyle = {};
                 vm.$onInit = function () {
-                    overlayResource.get({ id: vm.overlayId })
+                    overlayResource.get({ id: vm.OverlayID })
                         .$promise
                         .then(function (data) {
                             vm.message = "";
@@ -47,7 +47,7 @@
                     vm.message = "saving...";
                     overlayResource.updateStyle({ id: vm.currentStyle.StyleID }, vm.currentStyle).$promise.then(function () {
                         vm.message = "wow you saved!";
-                        overlayResource.get({ id: vm.overlayId }).$promise.then(function (data) {
+                        overlayResource.get({ id: vm.OverlayID }).$promise.then(function (data) {
                             vm.overlay = data;
                             vm.originaloverlay = angular.copy(data);
                         });

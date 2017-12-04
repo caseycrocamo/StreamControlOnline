@@ -900,7 +900,7 @@ window.Modernizr = (function( window, document, undefined ) {
 
                       // Safari 2-4 allows the smiley as a value, despite making a slider
                       bool =  defaultView.getComputedStyle &&
-                              defaultView.getComputedStyle(inputElem, null).WebkitAppearance !== 'textfield' &&
+                              defaultView.getComputedStyle(inputElem, null).WebkitAppearance !== 'textelement' &&
                               // Mobile android web browser has false positive, so must
                               // check the height to see if the widget is actually there.
                               (inputElem.offsetHeight !== 0);
@@ -1019,7 +1019,7 @@ window.Modernizr = (function( window, document, undefined ) {
         var reSkip = /^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i;
 
         /** Not all elements can be cloned in IE **/
-        var saveClones = /^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i;
+        var saveClones = /^(?:a|b|code|div|elementset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i;
 
         /** Detect whether the browser supports default html5 styles */
         var supportsHtml5Styles;

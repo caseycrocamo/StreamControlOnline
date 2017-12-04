@@ -2,7 +2,7 @@
     angular.module("main").component("overlayView",
         {
             bindings: {
-                overlayId: "<",
+                OverlayID: "<",
                 viewId: "<",
                 currentSelection: '&',
                 showBox: '<'
@@ -13,7 +13,7 @@
                 vm.overlay = null;
                 vm.message = "loading...";
                 vm.$onInit = function () {
-                    overlayResource.get({ id: vm.overlayId })
+                    overlayResource.get({ id: vm.OverlayID })
                         .$promise
                         .then(function (data) {
                             vm.message = "";

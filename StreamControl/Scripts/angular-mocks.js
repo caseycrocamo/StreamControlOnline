@@ -1322,7 +1322,7 @@ angular.mock.dump = function(object) {
           count:    userList.length,
           previous: isPrevious,
           next:     isNext,
-          // sort field -> '/v1/users?sortBy=firstName'
+          // sort element -> '/v1/users?sortBy=firstName'
           results:  $filter('orderBy')(userList, params.sortBy || defaultSort)
                       .splice((params.page - 1) * pagingLength, pagingLength)
         }];

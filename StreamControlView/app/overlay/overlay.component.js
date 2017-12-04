@@ -2,7 +2,7 @@
     angular.module("main").component("overlay",
         {
             bindings: {
-                overlayId: "<"
+                OverlayID: "<"
             },
             controllerAs: "vm",
             controller: [function () {

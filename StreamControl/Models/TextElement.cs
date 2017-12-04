@@ -5,9 +5,8 @@ using System.Web;
 
 namespace StreamControl.Models
 {
-    public class Player
+    public class TextElement : Element
     {
-        public int PlayerID { get; set; }
-        public string Name { get; set; }
+        public string Value { get; set; }
     }
 }

@@ -102,49 +102,49 @@
             },
             {
                 name: "overlay",
-                url: "/overlay/{overlayId}",
+                url: "/overlay/{OverlayID}",
                 resolve: {
-                    overlayId: function ($stateParams) {
-                        return $stateParams.overlayId;
+                    OverlayID: function ($stateParams) {
+                        return $stateParams.OverlayID;
                     }
                 },
-                template: '<overlay overlay-id="$resolve.overlayId"></overlay>'
+                template: '<overlay overlay-id="$resolve.OverlayID"></overlay>'
             },
             {
                 name: "overlay.edit",
                 url: "/edit",
                 resolve: {
-                    overlayId: function ($stateParams) {
-                        return $stateParams.overlayId;
+                    OverlayID: function ($stateParams) {
+                        return $stateParams.OverlayID;
                     }
                 },
-                template: '<overlay-edit overlay-id="$resolve.overlayId"></overlay-edit>'
+                template: '<overlay-edit overlay-id="$resolve.OverlayID"></overlay-edit>'
             },
             {
                 name: "overlay.view",
                 url: "/view/{viewId}",
                 resolve: {
-                    overlayId: function ($stateParams) {
-                        return $stateParams.overlayId;
+                    OverlayID: function ($stateParams) {
+                        return $stateParams.OverlayID;
                     },
                     viewId: function ($stateParams) {
                         return $stateParams.viewId;
                     }
                 },
-                template: '<overlay-view overlay-id="$resolve.overlayId" view-id="$resolve.viewId"></overlay-view>'
+                template: '<overlay-view overlay-id="$resolve.OverlayID" view-id="$resolve.viewId"></overlay-view>'
             },
             {
                 name: "overlay.viewEdit",
                 url: "/view/{viewId}/edit",
                 resolve: {
-                    overlayId: function ($stateParams) {
-                        return $stateParams.overlayId;
+                    OverlayID: function ($stateParams) {
+                        return $stateParams.OverlayID;
                     },
                     viewId: function ($stateParams) {
                         return $stateParams.viewId;
                     }
                 },
-                template: '<view-edit overlay-id="$resolve.overlayId" view-id="$resolve.viewId"></view-edit>'
+                template: '<view-edit overlay-id="$resolve.OverlayID" view-id="$resolve.viewId"></view-edit>'
             }
         ];
         states.forEach(function (state) {

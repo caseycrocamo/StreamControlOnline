@@ -5852,7 +5852,7 @@ var nodeNames = "abbr|article|aside|audio|bdi|canvas|data|datalist|details|figca
 	// We have to close these tags to support XHTML (#13200)
 	wrapMap = {
 		option: [ 1, "<select multiple='multiple'>", "</select>" ],
-		legend: [ 1, "<fieldset>", "</fieldset>" ],
+		legend: [ 1, "<elementset>", "</elementset>" ],
 		area: [ 1, "<map>", "</map>" ],
 		param: [ 1, "<object>", "</object>" ],
 		thead: [ 1, "<table>", "</table>" ],
@@ -6317,7 +6317,7 @@ function fixCloneNodeIssues( src, dest ) {
 		dest.defaultSelected = dest.selected = src.defaultSelected;
 
 	// IE6-8 fails to set the defaultValue to the correct value when
-	// cloning other types of input fields
+	// cloning other types of input elements
 	} else if ( nodeName === "input" || nodeName === "textarea" ) {
 		dest.defaultValue = src.defaultValue;
 	}
@@ -7311,7 +7311,7 @@ jQuery.fn.extend({
 		})
 		.filter(function(){
 			var type = this.type;
-			// Use .is(":disabled") so that fieldset[disabled] works
+			// Use .is(":disabled") so that elementset[disabled] works
 			return this.name && !jQuery( this ).is( ":disabled" ) &&
 				rsubmittable.test( this.nodeName ) && !rsubmitterTypes.test( type ) &&
 				( this.checked || !manipulation_rcheckableType.test( type ) );
@@ -7448,7 +7448,7 @@ var
 	allTypes = "*/".concat("*");
 
 // #8138, IE may throw an exception when accessing
-// a field from window.location if document.domain has been set
+// a element from window.location if document.domain has been set
 try {
 	ajaxLocation = location.href;
 } catch( e ) {
@@ -7664,7 +7664,7 @@ jQuery.extend({
 			json: /json/
 		},
 
-		responseFields: {
+		responseelements: {
 			xml: "responseXML",
 			text: "responseText"
 		},
@@ -7697,7 +7697,7 @@ jQuery.extend({
 	},
 
 	// Creates a full fledged settings object into target
-	// with both ajaxSettings and settings fields.
+	// with both ajaxSettings and settings elements.
 	// If target is omitted, writes into ajaxSettings.
 	ajaxSetup: function( target, settings ) {
 		return settings ?
@@ -8110,7 +8110,7 @@ jQuery.extend({
 });
 
 /* Handles responses to an ajax request:
- * - sets all responseXXX fields accordingly
+ * - sets all responseXXX elements accordingly
  * - finds the right dataType (mediates between content-type and expected dataType)
  * - returns the corresponding response
  */
@@ -8118,12 +8118,12 @@ function ajaxHandleResponses( s, jqXHR, responses ) {
 	var firstDataType, ct, finalDataType, type,
 		contents = s.contents,
 		dataTypes = s.dataTypes,
-		responseFields = s.responseFields;
+		responseelements = s.responseelements;
 
-	// Fill responseXXX fields
-	for ( type in responseFields ) {
+	// Fill responseXXX elements
+	for ( type in responseelements ) {
 		if ( type in responses ) {
-			jqXHR[ responseFields[type] ] = responses[ type ];
+			jqXHR[ responseelements[type] ] = responses[ type ];
 		}
 	}
 
@@ -8492,10 +8492,10 @@ if ( xhrSupported ) {
 						xhr.open( s.type, s.url, s.async );
 					}
 
-					// Apply custom fields if provided
-					if ( s.xhrFields ) {
-						for ( i in s.xhrFields ) {
-							xhr[ i ] = s.xhrFields[ i ];
+					// Apply custom elements if provided
+					if ( s.xhrelements ) {
+						for ( i in s.xhrelements ) {
+							xhr[ i ] = s.xhrelements[ i ];
 						}
 					}
 

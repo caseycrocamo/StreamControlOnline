@@ -8,13 +8,13 @@ namespace StreamControl.Data
 {
     public static class DbInitializer
     {
-        public static void Initialize(ScoreBoardContext context)
+        public static void Initialize(OverlayContext context)
         {
             
             //context.Database.EnsureCreated();
 
-            // Look for any players.
-            if (context.Scoreboards.Any())
+            // Look for any overlays.
+            if (context.Overlays.Any())
             {
                 return;   // DB has been seeded
             }
@@ -92,37 +92,26 @@ namespace StreamControl.Data
                 }
             };
 
-            var players = new Player[]
-            {
-                new Player{Name= "Sif", Character = "Samus", Label = "Player1"},
-                new Player{Name= "n8thegr8", Character = "Fox", Label = "Player2"}
-            };
-            //foreach(Player p in players)
-            //{
-            //    context.Players.Add(p);
-            //}
-            //context.SaveChanges();
+            context.Players.Add(new Player { Name = "Sif" });
+            context.Players.Add(new Player { Name = "n8thegr8" });
 
-            Element[] fields = 
+            Element[] elements = 
             {
-                new Element{Label="Round", Value="Winners Round 1 BO3"},
-                new Element{Label="Score1", Value="1"},
-                new Element{Label="Score2", Value="2"}
+                new TextElement{ Label="Round", Value="Winners Round 1 BO3" },
+                new TextElement{ Label="Score1", Value="1" },
+                new TextElement{ Label="Score2", Value="2" },
+                new PlayerElement(new Player { Name = "Sif" }){ Label="Player1" },
+                new PlayerElement(new Player { Name = "Sif" }){ Label="Player2" }
             };
-            //foreach (Field f in fields)
-            //{
-            //    context.Fields.Add(f);
-            //}
-            //context.SaveChanges();
-            Overlay scoreboard = new Overlay
+
+            Overlay overlay = new Overlay
             {
                 Name = "Test Table",
                 OwnerID = "test@gmail.com",
-                Fields = fields,
-                Views = views,
-                Players = players
+                Elements = elements,
+                Views = views
             };
-            context.Scoreboards.Add(scoreboard);
+            context.Overlays.Add(overlay);
             context.SaveChanges();
         }
     }

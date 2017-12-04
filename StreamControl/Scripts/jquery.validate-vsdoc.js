@@ -315,8 +315,8 @@ $.extend($.validator, {
 	},
 
 	messages: {
-		required: "This field is required.",
-		remote: "Please fix this field.",
+		required: "This element is required.",
+		remote: "Please fix this element.",
 		email: "Please enter a valid email address.",
 		url: "Please enter a valid URL.",
 		date: "Please enter a valid date.",
@@ -461,7 +461,7 @@ $.extend($.validator, {
 		resetForm: function() {
 			/// <summary>
 			/// Resets the controlled form.
-			/// Resets input fields to their original value (requires form plugin), removes classes
+			/// Resets input elements to their original value (requires form plugin), removes classes
 			/// indicating invalid elements and hides error messages.
 			/// </summary>
 
@@ -475,8 +475,8 @@ $.extend($.validator, {
 		
 		numberOfInvalids: function() {
 			/// <summary>
-			/// Returns the number of invalid fields.
-			/// This depends on the internal validator state. It covers all fields only after
+			/// Returns the number of invalid elements.
+			/// This depends on the internal validator state. It covers all elements only after
 			/// validating the complete form (on submit or via $("form").valid()). After validating
 			/// a single element, only that element is counted. Most useful in combination with the
 			/// invalidHandler-option.
@@ -590,7 +590,7 @@ $.extend($.validator, {
 				try {
 					var result = $.validator.methods[method].call( this, element.value.replace(/\r/g, ""), element, rule.parameters );
 					
-					// if a method indicates that the field is optional and therefore valid,
+					// if a method indicates that the element is optional and therefore valid,
 					// don't mark it as valid when there are no other rules
 					if ( result == "dependency-mismatch" ) {
 						dependencyMismatch = true;
@@ -1010,7 +1010,7 @@ $.extend($.validator, {
 		/// <param name="message" type="String" optional="true">
 		/// (Optional) The default message to display for this method. Can be a function created by 
 		/// jQuery.validator.format(value). When undefined, an already existing message is used 
-		/// (handy for localization), otherwise the field-specific messages have to be defined.
+		/// (handy for localization), otherwise the element-specific messages have to be defined.
 		/// </param>
 
 		$.validator.methods[name] = method;
@@ -1192,7 +1192,7 @@ $.extend($.validator, {
 		
 		// http://docs.jquery.com/Plugins/Validation/Methods/equalTo
 		equalTo: function(value, element, param) {
-			// bind to the blur event of the target in order to revalidate whenever the target field is updated
+			// bind to the blur event of the target in order to revalidate whenever the target element is updated
 			// TODO find a way to bind the event just once, avoiding the unbind-rebind overhead
 			var target = $(param).unbind(".validate-equalTo").bind("blur.validate-equalTo", function() {
 				$(element).valid();

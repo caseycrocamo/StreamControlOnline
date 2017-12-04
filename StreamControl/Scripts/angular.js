@@ -19377,7 +19377,7 @@ function $SceDelegateProvider() {
  * How would you ensure that every place that used these types of bindings was bound to a value that
  * was sanitized by your library (or returned as safe for rendering by your server?)  How can you
  * ensure that you didn't accidentally delete the line that sanitized the value, or renamed some
- * properties/fields and forgot to update the binding to the sanitized value?
+ * properties/elements and forgot to update the binding to the sanitized value?
  *
  * To be secure by default, AngularJS makes sure bindings go through that sanitization, or
  * any similar validation process, unless there's a good reason to trust the given value in this
@@ -20916,7 +20916,7 @@ function $FilterProvider($provide) {
          });
        };
 
-       it('should search across all fields when filtering with a string', function() {
+       it('should search across all elements when filtering with a string', function() {
          var searchText = element(by.model('searchText'));
          searchText.clear();
          searchText.sendKeys('m');
@@ -20927,7 +20927,7 @@ function $FilterProvider($provide) {
          expectFriendNames(['John', 'Julie'], 'friend');
        });
 
-       it('should search in specific fields when filtering with a predicate object', function() {
+       it('should search in specific elements when filtering with a predicate object', function() {
          var searchAny = element(by.model('search.$'));
          searchAny.clear();
          searchAny.sendKeys('i');
@@ -22921,7 +22921,7 @@ var htmlAnchorDirective = valueFn({
     <example name="ng-readonly">
       <file name="index.html">
         <label>Check me to make text readonly: <input type="checkbox" ng-model="checked"></label><br/>
-        <input type="text" ng-readonly="checked" value="I'm Angular" aria-label="Readonly field" />
+        <input type="text" ng-readonly="checked" value="I'm Angular" aria-label="Readonly element" />
       </file>
       <file name="protractor.js" type="protractor">
         it('should toggle readonly attr', function() {
@@ -23515,18 +23515,18 @@ addSetValidityMethod({
  *
  * - {@link ng.directive:ngSubmit ngSubmit} directive on the form element
  * - {@link ng.directive:ngClick ngClick} directive on the first
-  *  button or input field of type submit (input[type=submit])
+  *  button or input element of type submit (input[type=submit])
  *
  * To prevent double execution of the handler, use only one of the {@link ng.directive:ngSubmit ngSubmit}
  * or {@link ng.directive:ngClick ngClick} directives.
  * This is because of the following form submission rules in the HTML specification:
  *
- * - If a form has only one input field then hitting enter in this field triggers form submit
+ * - If a form has only one input element then hitting enter in this element triggers form submit
  * (`ngSubmit`)
- * - if a form has 2+ input fields and no buttons or input[type=submit] then hitting enter
+ * - if a form has 2+ input elements and no buttons or input[type=submit] then hitting enter
  * doesn't trigger submit
- * - if a form has one or more input fields and one or more buttons or input[type=submit] then
- * hitting enter in any of the input fields will trigger the click handler on the *first* button or
+ * - if a form has one or more input elements and one or more buttons or input[type=submit] then
+ * hitting enter in any of the input elements will trigger the click handler on the *first* button or
  * input[type=submit] (`ngClick`) *and* a submit handler on the enclosing form (`ngSubmit`)
  *
  * Any pending `ngModelOptions` changes will take place immediately when an enclosing form is
@@ -28804,7 +28804,7 @@ NgModelController.prototype = {
    *
    * The `$rollbackViewValue()` method should be called before programmatically changing the model of an
    * input which may have such events pending. This is important in order to make sure that the
-   * input field will be updated with the new model value and any pending operations are cancelled.
+   * input element will be updated with the new model value and any pending operations are cancelled.
    *
    * <example name="ng-model-cancel-update" module="cancel-update-example">
    *   <file name="app.js">
@@ -29704,9 +29704,9 @@ defaultModelOptions = new ModelOptions({
  * trigger a model update and/or a debouncing delay so that the actual update only takes place when
  * a timer expires; this timer will be reset after another change takes place.
  *
- * Given the nature of `ngModelOptions`, the value displayed inside input fields in the view might
+ * Given the nature of `ngModelOptions`, the value displayed inside input elements in the view might
  * be different from the value in the actual model. This means that if you update the model you
- * should also invoke {@link ngModel.NgModelController#$rollbackViewValue} on the relevant input field in
+ * should also invoke {@link ngModel.NgModelController#$rollbackViewValue} on the relevant input element in
  * order to make sure it is synchronized with the model and that any debounced action is canceled.
  *
  * The easiest way to reference the control's {@link ngModel.NgModelController#$rollbackViewValue}
@@ -29720,7 +29720,7 @@ defaultModelOptions = new ModelOptions({
  *
  * The following example shows how to override immediate updates. Changes on the inputs within the
  * form will update the model only when the control loses focus (blur event). If `escape` key is
- * pressed while the input field is focused, the value is reset to the value in the current model.
+ * pressed while the input element is focused, the value is reset to the value in the current model.
  *
  * <example name="ngModelOptions-directive-blur" module="optionsExample">
  *   <file name="index.html">
