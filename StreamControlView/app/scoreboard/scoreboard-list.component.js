@@ -1,31 +1,31 @@
 ﻿(function () {
-    angular.module("main").component("overlayList",
+    angular.module("main").component("scoreboardList",
         {
             bindings: {
                 username: "<"
             },
             controllerAs: "vm",
-            controller: ["overlayResource", function (overlayResource) {
+            controller: ["scoreboardResource", function (scoreboardResource) {
                 var vm = this;
                 vm.message = "";
                 
                 vm.$onInit = function () {
-                    vm.overlays = {};
-                    overlayResource.getAll({ username: vm.username })
+                    vm.scoreboards = {};
+                    scoreboardResource.getAll({ username: vm.username })
                         .$promise.then(function (data) {
-                            vm.overlays = data;
+                            vm.scoreboards = data;
                         });
                 }; 
                 vm.remove = function (_id) {
-                    overlayResource.remove({ id: _id })
+                    scoreboardResource.remove({ id: _id })
                         .$promise.then(function () {
-                            overlayResource.getAll({ username: vm.username })
+                            scoreboardResource.getAll({ username: vm.username })
                                 .$promise.then(function (data) {
-                                    vm.overlays = data;
+                                    vm.scoreboards = data;
                                 });
                         });
                 };
             }],
-            templateUrl: "app/overlay/overlay-list.template.html"
+            templateUrl: "app/scoreboard/scoreboard-list.template.html"
         });
 }());

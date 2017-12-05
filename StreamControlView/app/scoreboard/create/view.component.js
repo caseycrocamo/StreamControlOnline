@@ -1,13 +1,13 @@
 ﻿(function () {
     angular.module("main").component("view", {
         bindings: {
-            overlay: "<"
+            scoreboard: "<"
         },
         controllerAs: "vm",
-        controller: ["overlayResource", "$state", "$timeout", function (overlayResource, $state, $timeout) {
+        controller: ["scoreboardResource", "$state", "$timeout", function (scoreboardResource, $state, $timeout) {
             var vm = this;
             vm.$onInit = function () {
-                console.log(vm.overlay);
+                console.log(vm.scoreboard);
                 vm.views = [];
             }
 
@@ -18,17 +18,17 @@
             }
 
             vm.returnToList = function () {
-                $state.go("overlays");
+                $state.go("scoreboards");
             };
 
             vm.save = function () {
-                vm.overlay.Views = vm.views;
-                overlayResource.create(vm.overlay)
+                vm.scoreboard.Views = vm.views;
+                scoreboardResource.create(vm.scoreboard)
                         .$promise
                         .then(
                             //on success
                         function (data) {
-                            $state.go("overlays");
+                            $state.go("scoreboards");
                         },
                             //on failure
                         function () {
@@ -36,6 +36,6 @@
                     });
             };
         }],
-        templateUrl: "app/overlay/create/view.template.html"
+        templateUrl: "app/scoreboard/create/view.template.html"
     });
 }());

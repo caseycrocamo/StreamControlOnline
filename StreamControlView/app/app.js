@@ -58,93 +58,93 @@
                 template: '<register></register>'
             },
             {
-                name: "overlays",
-                url: "/overlays",
+                name: "scoreboards",
+                url: "/scoreboards",
                 resolve: {
                     username: function (authService) {
                         authService.fillAuthData();
                         return authService.authentication.userName;
                     }
                 },
-                template: '<overlay-list username="$resolve.username"></overlay-list>'
+                template: '<scoreboard-list username="$resolve.username"></scoreboard-list>'
             },
             {
-                name: "overlayCreate",
-                url: "/overlay/create",
-                template: '<overlay-create></overlay-create>'
+                name: "scoreboardCreate",
+                url: "/scoreboard/create",
+                template: '<scoreboard-create></scoreboard-create>'
             },
             {
-                name: "overlayCreate.basics",
+                name: "scoreboardCreate.basics",
                 url: "/basics",
-                template: '<create-basics></create-basics>'
+                template: '<basics></basics>'
             },
             {
-                name: "overlayCreate.element",
+                name: "scoreboardCreate.element",
                 url: "/element",
-                params: { overlay: null },
+                params: { scoreboard: null },
                 resolve: {
-                    overlay: function ($stateParams) {
-                        return $stateParams.overlay;
+                    scoreboard: function ($stateParams) {
+                        return $stateParams.scoreboard;
                     }
                 },
-                template: '<create-element overlay="$resolve.overlay"></create-element>'
+                template: '<element scoreboard="$resolve.scoreboard"></element>'
             },
             {
-                name: "overlayCreate.view",
+                name: "scoreboardCreate.view",
                 url: "/view",
-                params: { overlay: null },
+                params: { scoreboard: null },
                 resolve: {
-                    overlay: function ($stateParams) {
-                        return $stateParams.overlay;
+                    scoreboard: function ($stateParams) {
+                        return $stateParams.scoreboard;
                     }
                 },
-                template: '<create-view overlay="$resolve.overlay"></create-view>'
+                template: '<view scoreboard="$resolve.scoreboard"></view>'
             },
             {
-                name: "overlay",
-                url: "/overlay/{overlayId}",
+                name: "scoreboard",
+                url: "/scoreboard/{scoreboardId}",
                 resolve: {
-                    overlayId: function ($stateParams) {
-                        return $stateParams.overlayId;
+                    scoreboardId: function ($stateParams) {
+                        return $stateParams.scoreboardId;
                     }
                 },
-                template: '<overlay overlay-id="$resolve.overlayId"></overlay>'
+                template: '<scoreboard scoreboard-id="$resolve.scoreboardId"></scoreboard>'
             },
             {
-                name: "overlay.edit",
+                name: "scoreboard.edit",
                 url: "/edit",
                 resolve: {
-                    overlayId: function ($stateParams) {
-                        return $stateParams.overlayId;
+                    scoreboardId: function ($stateParams) {
+                        return $stateParams.scoreboardId;
                     }
                 },
-                template: '<overlay-edit overlay-id="$resolve.overlayId"></overlay-edit>'
+                template: '<scoreboard-edit scoreboard-id="$resolve.scoreboardId"></scoreboard-edit>'
             },
             {
-                name: "overlay.view",
+                name: "scoreboard.view",
                 url: "/view/{viewId}",
                 resolve: {
-                    overlayId: function ($stateParams) {
-                        return $stateParams.overlayId;
+                    scoreboardId: function ($stateParams) {
+                        return $stateParams.scoreboardId;
                     },
                     viewId: function ($stateParams) {
                         return $stateParams.viewId;
                     }
                 },
-                template: '<overlay-view overlay-id="$resolve.overlayId" view-id="$resolve.viewId"></overlay-view>'
+                template: '<scoreboard-view scoreboard-id="$resolve.scoreboardId" view-id="$resolve.viewId"></scoreboard-view>'
             },
             {
-                name: "overlay.viewEdit",
+                name: "scoreboard.viewEdit",
                 url: "/view/{viewId}/edit",
                 resolve: {
-                    overlayId: function ($stateParams) {
-                        return $stateParams.overlayId;
+                    scoreboardId: function ($stateParams) {
+                        return $stateParams.scoreboardId;
                     },
                     viewId: function ($stateParams) {
                         return $stateParams.viewId;
                     }
                 },
-                template: '<view-edit overlay-id="$resolve.overlayId" view-id="$resolve.viewId"></view-edit>'
+                template: '<view-edit scoreboard-id="$resolve.scoreboardId" view-id="$resolve.viewId"></view-edit>'
             }
         ];
         states.forEach(function (state) {

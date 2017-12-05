@@ -2,25 +2,25 @@
     angular.module("main").component("viewEdit",
         {
             bindings: {
-                overlayId: "<",
+                scoreboardId: "<",
                 viewId: "<"
             },
             controllerAs: "vm",
-            controller: ["overlayResource", "authService", "$scope", "$filter","$location", function (overlayResource, authService, $scope, $filter, $location) {
+            controller: ["scoreboardResource", "authService", "$scope", "$filter", function (scoreboardResource, authService, $scope, $filter) {
                 var vm = this;
-                vm.overlay = null;
+                vm.scoreboard = null;
                 vm.message = "loading...";
                 vm.currentId = "";
                 vm.currentStyle = {};
                 vm.$onInit = function () {
-                    overlayResource.get({ id: vm.overlayId })
+                    scoreboardResource.get({ id: vm.scoreboardId })
                         .$promise
                         .then(function (data) {
                             vm.message = "";
-                            vm.overlay = data;
-                            for (let i = 0; i < vm.overlay.Views.length; i++) {
-                                if (vm.overlay.Views[i].ViewID == vm.viewId) {
-                                    vm.view = vm.overlay.Views[i];
+                            vm.scoreboard = data;
+                            for (let i = 0; i < vm.scoreboard.Views.length; i++) {
+                                if (vm.scoreboard.Views[i].ViewID == vm.viewId) {
+                                    vm.view = vm.scoreboard.Views[i];
                                 }
                             };
                         })
@@ -40,16 +40,16 @@
                 };
 
                 vm.returnToList = function () {
-                    $location.path("/overlays");
+                    $location.path("/scoreboards");
                 };
 
                 vm.save = function () {
                     vm.message = "saving...";
-                    overlayResource.updateStyle({ id: vm.currentStyle.StyleID }, vm.currentStyle).$promise.then(function () {
+                    scoreboardResource.updateStyle({ id: vm.currentStyle.StyleID }, vm.currentStyle).$promise.then(function () {
                         vm.message = "wow you saved!";
-                        overlayResource.get({ id: vm.overlayId }).$promise.then(function (data) {
-                            vm.overlay = data;
-                            vm.originaloverlay = angular.copy(data);
+                        scoreboardResource.get({ id: vm.scoreboardId }).$promise.then(function (data) {
+                            vm.scoreboard = data;
+                            vm.originalScoreboard = angular.copy(data);
                         });
                     });
                 };
@@ -64,6 +64,6 @@
 
                 
             }],
-            templateUrl: "app/overlay/view/view-edit.template.html"
+            templateUrl: "app/scoreboard/view/view-edit.template.html"
         });
 }());

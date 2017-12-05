@@ -4,7 +4,7 @@
         <div class="col-lg-6 containerEditForm">
             <h1 style="text-align:center">Fields</h1>
             <div class="form-group">
-                <div ng-repeat="f in vm.overlay.Fields" class="form-group">
+                <div ng-repeat="f in vm.scoreboard.Fields" class="form-group">
                     <label class="col-sm-2 control-label">{{f.Label}}</label>
                     <div class="col-sm-10">
                         <input class="form-control" ng-model="f.Value" />
@@ -15,7 +15,7 @@
         <div class="col-lg-6 containerEditForm">
             <h1 style="text-align:center">Players</h1>
             <div class="form-group">
-                <div ng-repeat="p in vm.overlay.Players" class="form-group">
+                <div ng-repeat="p in vm.scoreboard.Players" class="form-group">
                     <label class="col-sm-2 control-label">{{p.Label}}</label>
                     <div class="col-sm-10">
                         <input class="form-control" ng-model="p.Name" />

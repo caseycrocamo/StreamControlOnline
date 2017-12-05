@@ -1,10 +1,10 @@
 ﻿(function () {
     angular.module("main").component("element", {
         bindings: {
-            overlay: "<"
+            scoreboard: "<"
         },
         controllerAs: "vm",
-        controller: ["overlayResource", "$state", "$timeout", function (overlayResource, $state, $timeout) {
+        controller: ["scoreboardResource", "$state", "$timeout", function (scoreboardResource, $state, $timeout) {
             var vm = this;
             vm.$onInit = function () {
                 vm.fields = [];
@@ -24,15 +24,15 @@
             }
 
             vm.returnToList = function () {
-                $state.go("overlays");
+                $state.go("scoreboards");
             };
 
             vm.save = function () {
-                vm.overlay.Players = vm.players;
-                vm.overlay.Fields = vm.fields;
-                $state.go("overlayCreate.view", { overlay: vm.overlay });
+                vm.scoreboard.Players = vm.players;
+                vm.scoreboard.Fields = vm.fields;
+                $state.go("scoreboardCreate.view", { scoreboard: vm.scoreboard });
             };
         }],
-        templateUrl: "app/overlay/create/element.template.html"
+        templateUrl: "app/scoreboard/create/element.template.html"
     });
 }());

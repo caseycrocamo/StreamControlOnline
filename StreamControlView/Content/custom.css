@@ -11,7 +11,7 @@
 .ptop {
     padding-top:60px;
 }
-.overlayContainer {
+.scoreboardContainer {
     background-color: indianred;
     margin: 10px;
     height: 300px;
@@ -20,10 +20,10 @@
     padding: 0;
     overflow: hidden
 }
-.overlayContainer a{
+.scoreboardContainer a{
     text-decoration:none;
 }
-.overlayTitle {
+.scoreboardTitle {
     width:100%;
     height:30px;
     background-color:lightblue;
@@ -46,7 +46,7 @@
     margin:5px;
     margin-right:10px;
 }
-.overlayBody {
+.scoreboardBody {
     width:100%;
     height: 270px;
     background-color: #cdcdcd;

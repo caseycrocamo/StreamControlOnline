@@ -24,19 +24,19 @@ namespace StreamControl.Controllers
 
         // GET: api/Scoreboards?username
         [HttpGet]
-        [ResponseType(typeof(Overlay[]))]
+        [ResponseType(typeof(Scoreboard[]))]
         public async Task<IHttpActionResult> GetScoreboards(string username)
         {
-            Overlay[] query = await db.Scoreboards.Where(u => u.OwnerID == username).ToArrayAsync<Overlay>();
+            Scoreboard[] query = await db.Scoreboards.Where(u => u.OwnerID == username).ToArrayAsync<Scoreboard>();
             return Ok(query);
         }
 
         // GET: api/Scoreboards/5
         [HttpGet]
-        [ResponseType(typeof(Overlay))]
+        [ResponseType(typeof(Scoreboard))]
         public async Task<IHttpActionResult> GetScoreboard(int id)
         {
-            Overlay scoreboard = await db.Scoreboards.FindAsync(id);
+            Scoreboard scoreboard = await db.Scoreboards.FindAsync(id);
             if (scoreboard == null)
             {
                 return NotFound();
@@ -48,7 +48,7 @@ namespace StreamControl.Controllers
         // PUT: api/Scoreboards/5
         [HttpPut]
         [ResponseType(typeof(void))]
-        public async Task<IHttpActionResult> PutScoreboard(int id, Overlay scoreboard)
+        public async Task<IHttpActionResult> PutScoreboard(int id, Scoreboard scoreboard)
         {
             if (!ModelState.IsValid)
             {
@@ -88,9 +88,9 @@ namespace StreamControl.Controllers
         [HttpPut]
         [Route("api/Scoreboards/Field")]
         [ResponseType(typeof(void))]
-        public async Task<IHttpActionResult> PutField(int id, Element field)
+        public async Task<IHttpActionResult> PutField(int id, Field field)
         {
-            Overlay scoreboard = await db.Scoreboards.FirstOrDefaultAsync(i => i.ScoreboardID == id);
+            Scoreboard scoreboard = await db.Scoreboards.FirstOrDefaultAsync(i => i.ScoreboardID == id);
             scoreboard.Fields.Add(field);
             try
             {
@@ -117,7 +117,7 @@ namespace StreamControl.Controllers
         [ResponseType(typeof(void))]
         public async Task<IHttpActionResult> PutPlayer(int id, Player player)
         {
-            Overlay scoreboard = await db.Scoreboards.FirstOrDefaultAsync(i => i.ScoreboardID == id);
+            Scoreboard scoreboard = await db.Scoreboards.FirstOrDefaultAsync(i => i.ScoreboardID == id);
             scoreboard.Players.Add(player);
             try
             {
@@ -159,8 +159,8 @@ namespace StreamControl.Controllers
         }
 
         // POST: api/Scoreboards
-        [ResponseType(typeof(Overlay))]
-        public async Task<IHttpActionResult> PostScoreboard(Overlay scoreboard)
+        [ResponseType(typeof(Scoreboard))]
+        public async Task<IHttpActionResult> PostScoreboard(Scoreboard scoreboard)
         {
             if (!ModelState.IsValid)
             {
@@ -174,10 +174,10 @@ namespace StreamControl.Controllers
         }
 
         // DELETE: api/Scoreboards/5
-        [ResponseType(typeof(Overlay))]
+        [ResponseType(typeof(Scoreboard))]
         public async Task<IHttpActionResult> DeleteScoreboard(int id)
         {
-            Overlay scoreboard = await db.Scoreboards.FindAsync(id);
+            Scoreboard scoreboard = await db.Scoreboards.FindAsync(id);
             if (scoreboard == null)
             {
                 return NotFound();
@@ -203,9 +203,9 @@ namespace StreamControl.Controllers
             return db.Scoreboards.Count(e => e.ScoreboardID == id) > 0;
         }
 
-        private async Task UpdateFields(ICollection<Element> fields)
+        private async Task UpdateFields(ICollection<Field> fields)
         {
-            foreach (Element field in fields)
+            foreach (Field field in fields)
             {
                 db.Entry(field).State = EntityState.Modified;
             }

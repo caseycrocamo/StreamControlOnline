@@ -1,23 +1,23 @@
 ﻿(function () {
-    angular.module("main").component("overlayEdit", {
+    angular.module("main").component("scoreboardEdit", {
         bindings: {
-            overlayId: "<"
+            scoreboardId: "<"
         },
         controllerAs: "vm",
-        controller: ["overlayResource", "$location", "$timeout", function (overlayResource, $location, $timeout) {
+        controller: ["scoreboardResource", "$location", "$timeout", function (scoreboardResource, $location, $timeout) {
             var vm = this;
-            vm.overlay = {};
+            vm.scoreboard = {};
             vm.message = 'loading...';
 
             vm.$onInit = function () {
-                overlayResource.get({ id: vm.overlayId })
+                scoreboardResource.get({ id: vm.scoreboardId })
                     .$promise
                     .then(
                     //on success
                     function (data) {
                         vm.message = "";
-                        vm.overlay = data;
-                        vm.originaloverlay = angular.copy(data);
+                        vm.scoreboard = data;
+                        vm.originalScoreboard = angular.copy(data);
                     },
                     //on failure
                     function () {
@@ -25,21 +25,21 @@
                     });
 
                 vm.cancel = function () {
-                    vm.overlay = vm.originaloverlay;
+                    vm.scoreboard = vm.originalScoreboard;
                     vm.message = "Changes Reverted";
                 };
 
                 vm.returnToList = function () {
-                    $location.path("/overlays");
+                    $location.path("/scoreboards");
                 };
 
                 vm.save = function () {
                     vm.message = "saving...";
-                    overlayResource.update({ id: vm.overlayId }, vm.overlay).$promise.then(function () {
+                    scoreboardResource.update({ id: vm.scoreboardId }, vm.scoreboard).$promise.then(function () {
                         vm.message = "wow you saved!";
-                        overlayResource.get({ id: vm.overlayId }).$promise.then(function (data) {
-                            vm.overlay = data;
-                            vm.originaloverlay = angular.copy(data);
+                        scoreboardResource.get({ id: vm.scoreboardId }).$promise.then(function (data) {
+                            vm.scoreboard = data;
+                            vm.originalScoreboard = angular.copy(data);
                         });
                     });
                 };
@@ -48,6 +48,6 @@
 
             
         }],
-        templateUrl: "app/overlay/overlay-edit.template.html"
+        templateUrl: "app/scoreboard/scoreboard-edit.template.html"
     });
 }());

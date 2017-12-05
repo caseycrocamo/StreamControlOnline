@@ -1,27 +1,27 @@
 ﻿<div>
     <navbar></navbar>
     <div class="ptop">
-            <div class="page-header"><h1 style="text-align:center">overlays</h1></div>
+            <div class="page-header"><h1 style="text-align:center">Scoreboards</h1></div>
             <div class="col-lg-12">                
-                <div ng-repeat="s in vm.overlays" class="col-lg-4">
-                    <div class="overlayContainer">
-                        <div class="overlayTitle">
+                <div ng-repeat="s in vm.scoreboards" class="col-lg-4">
+                    <div class="scoreboardContainer">
+                        <div class="scoreboardTitle">
                             <h4 class="titleWord">{{s.Name}}</h4>
                             <div class="titleIconContainer">
-                                <div style="cursor:pointer;" class="glyphicon glyphicon-remove titleIcon" ng-click="vm.remove(s.overlayID)"></div>
-                                <a class="glyphicon glyphicon-cog titleIcon" ui-sref="overlay.edit({ overlayId: s.overlayID })" href></a>
+                                <div style="cursor:pointer;" class="glyphicon glyphicon-remove titleIcon" ng-click="vm.remove(s.ScoreboardID)"></div>
+                                <a class="glyphicon glyphicon-cog titleIcon" ui-sref="scoreboard.edit({ scoreboardId: s.ScoreboardID })" href></a>
                             </div>
                         </div>
-                        <div class="overlayBody">
+                        <div class="scoreboardBody">
                             <div class="viewPanelBrowser">
                                 <div class="viewItemBackground">
                                     <div ng-repeat="v in s.Views" class="viewItem">
                                         <div class="viewItemBody">
-                                            <div class="viewItemTitle" ui-sref="overlay.view({ overlayId: s.overlayID, viewId: v.ViewID })" href>{{v.Name}}</div>
+                                            <div class="viewItemTitle" ui-sref="scoreboard.view({ scoreboardId: s.ScoreboardID, viewId: v.ViewID })" href>{{v.Name}}</div>
                                             <div class="viewItemLeft">
                                                 <div class="glyphicon glyphicon-chevron-left"></div>
                                             </div>
-                                            <div class="viewItemCenter" ui-sref="overlay.viewEdit({ overlayId: s.overlayID, viewId: v.ViewID })" href>
+                                            <div class="viewItemCenter" ui-sref="scoreboard.viewEdit({ scoreboardId: s.ScoreboardID, viewId: v.ViewID })" href>
                                                 <div class="glyphicon glyphicon-eye-open"></div>
                                             </div>
                                             <div class="viewItemRight">
@@ -35,12 +35,12 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="overlayContainer">
-                        <div class="overlayTitle">
+                    <div class="scoreboardContainer">
+                        <div class="scoreboardTitle">
                             <h4 style="text-align:center" class="titleWord">Create</h4>
                         </div>
-                        <div class="overlayBody">
-                            <a id="createGlyph" ui-sref="overlayCreate.basics" class="glyphicon glyphicon-plus" href=></a>
+                        <div class="scoreboardBody">
+                            <a id="createGlyph" ui-sref="scoreboardCreate.basics" class="glyphicon glyphicon-plus" href=></a>
                         </div>
                     </div>
                 </div>
