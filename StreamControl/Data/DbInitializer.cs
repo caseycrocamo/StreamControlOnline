@@ -92,35 +92,34 @@ namespace StreamControl.Data
                 }
             };
 
-            var players = new Player[]
-            {
-                new Player{Name= "Sif", Character = "Samus", Label = "Player1"},
-                new Player{Name= "n8thegr8", Character = "Fox", Label = "Player2"}
-            };
-            //foreach(Player p in players)
-            //{
-            //    context.Players.Add(p);
-            //}
-            //context.SaveChanges();
+            Player sif = new Player { Name = "Sif" };
+            context.Players.Add(sif);
+            Player n8the = new Player { Name = "n8thegr8" };
+            context.Players.Add(n8the);
+            context.SaveChanges();
 
-            Field[] fields = 
+            var playerElements = new PlayerElement[]
             {
-                new Field{Label="Round", Value="Winners Round 1 BO3"},
-                new Field{Label="Score1", Value="1"},
-                new Field{Label="Score2", Value="2"}
+                new PlayerElement(sif){Character = "Samus", Label = "Player1"},
+                new PlayerElement(n8the){Character = "Fox", Label = "Player2"}
             };
-            //foreach (Field f in fields)
-            //{
-            //    context.Fields.Add(f);
-            //}
-            //context.SaveChanges();
+
+
+
+            TextElement[] textElements = 
+            {
+                new TextElement{Label="Round", Value="Winners Round 1 BO3"},
+                new TextElement{Label="Score1", Value="1"},
+                new TextElement{Label="Score2", Value="2"}
+            };
+
             Scoreboard scoreboard = new Scoreboard
             {
                 Name = "Test Table",
                 OwnerID = "test@gmail.com",
-                Fields = fields,
+                TextElements = textElements,
                 Views = views,
-                Players = players
+                PlayerElements = playerElements
             };
             context.Scoreboards.Add(scoreboard);
             context.SaveChanges();

@@ -21,7 +21,7 @@
                     },
                     //on failure
                     function () {
-                        vm.message = "this shit didnt load, are you logged in?"
+                        vm.message = "this shit didnt load, are you logged in?";
                     });
 
                 vm.cancel = function () {
@@ -43,7 +43,7 @@
                         });
                     });
                 };
-            }
+            };
             
 
             

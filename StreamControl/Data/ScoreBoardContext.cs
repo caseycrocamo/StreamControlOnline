@@ -15,14 +15,16 @@ namespace StreamControl.Data
         public DbSet<Scoreboard> Scoreboards { get; set; }
         public DbSet<Style> Styles { get; set; }
         public DbSet<View> Views { get; set; }
-        public DbSet<Field> Fields { get; set; }
+        public DbSet<TextElement> TextElements { get; set; }
+        public DbSet<PlayerElement> PlayerElements { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Style>().ToTable("Style");
             modelBuilder.Entity<Player>().ToTable("Player");
             modelBuilder.Entity<View>().ToTable("View");
-            modelBuilder.Entity<Field>().ToTable("Field");
+            modelBuilder.Entity<TextElement>().ToTable("TextElement");
+            modelBuilder.Entity<PlayerElement>().ToTable("PlayerElement");
             modelBuilder.Entity<Scoreboard>().ToTable("Scoreboard");
 
         }

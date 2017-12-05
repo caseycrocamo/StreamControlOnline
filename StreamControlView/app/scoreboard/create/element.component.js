@@ -7,18 +7,18 @@
         controller: ["scoreboardResource", "$state", "$timeout", function (scoreboardResource, $state, $timeout) {
             var vm = this;
             vm.$onInit = function () {
-                vm.fields = [];
-                vm.players = [];
+                vm.textElements = [];
+                vm.playerElements = [];
             }
 
-            vm.addField = function () {
-                vm.fields.push({
+            vm.addTextElement = function () {
+                vm.textElements.push({
                     Label: ""
                 });
             }
 
-            vm.addPlayer = function () {
-                vm.players.push({
+            vm.addPlayerElement = function () {
+                vm.playerElements.push({
                     Label: ""
                 });
             }
@@ -28,8 +28,8 @@
             };
 
             vm.save = function () {
-                vm.scoreboard.Players = vm.players;
-                vm.scoreboard.Fields = vm.fields;
+                vm.scoreboard.PlayerElements = vm.playerElements;
+                vm.scoreboard.TextElements = vm.textElements;
                 $state.go("scoreboardCreate.view", { scoreboard: vm.scoreboard });
             };
         }],

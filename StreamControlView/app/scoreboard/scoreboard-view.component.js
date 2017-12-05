@@ -22,7 +22,7 @@
                                 if (vm.scoreboard.Views[i].ViewID == vm.viewId) {
                                     vm.view = vm.scoreboard.Views[i];
                                 }
-                            };
+                            }
                         });
                     
                 };

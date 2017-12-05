@@ -161,7 +161,7 @@
                 }
             }
             return null;
-        }
+        };
     });
 
     app.directive('onFinishRender', function ($timeout) {
@@ -174,6 +174,6 @@
                     });
                 }
             }
-        }
+        };
     });
 }());

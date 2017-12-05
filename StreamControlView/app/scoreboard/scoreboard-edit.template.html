@@ -4,10 +4,10 @@
         <div class="col-lg-6 containerEditForm">
             <h1 style="text-align:center">Fields</h1>
             <div class="form-group">
-                <div ng-repeat="f in vm.scoreboard.Fields" class="form-group">
-                    <label class="col-sm-2 control-label">{{f.Label}}</label>
+                <div ng-repeat="t in vm.scoreboard.TextElements" class="form-group">
+                    <label class="col-sm-2 control-label">{{t.Label}}</label>
                     <div class="col-sm-10">
-                        <input class="form-control" ng-model="f.Value" />
+                        <input class="form-control" ng-model="t.Value" />
                     </div>
                 </div>
             </div>
@@ -15,10 +15,10 @@
         <div class="col-lg-6 containerEditForm">
             <h1 style="text-align:center">Players</h1>
             <div class="form-group">
-                <div ng-repeat="p in vm.scoreboard.Players" class="form-group">
+                <div ng-repeat="p in vm.scoreboard.PlayerElements" class="form-group">
                     <label class="col-sm-2 control-label">{{p.Label}}</label>
                     <div class="col-sm-10">
-                        <input class="form-control" ng-model="p.Name" />
+                        <input class="form-control" ng-model="p.Value" />
                     </div>
                     <label class="col-sm-2 control-label">Character</label>
                     <div class="col-sm-10">

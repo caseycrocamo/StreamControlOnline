@@ -78,20 +78,20 @@ namespace StreamControl.Controllers
                 }
             }
 
-            await UpdateFields(scoreboard.Fields);
-            await UpdatePlayers(scoreboard.Players);
+            await updateTextElements(scoreboard.TextElements);
+            await UpdatePlayerElements(scoreboard.PlayerElements);
 
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // PUT: api/Scoreboards/Field?id
+        // PUT: api/Scoreboards/TextElement?id
         [HttpPut]
-        [Route("api/Scoreboards/Field")]
+        [Route("api/Scoreboards/TextElement")]
         [ResponseType(typeof(void))]
-        public async Task<IHttpActionResult> PutField(int id, Field field)
+        public async Task<IHttpActionResult> PutTextElement(int id, TextElement textElement)
         {
             Scoreboard scoreboard = await db.Scoreboards.FirstOrDefaultAsync(i => i.ScoreboardID == id);
-            scoreboard.Fields.Add(field);
+            scoreboard.TextElements.Add(textElement);
             try
             {
                 await db.SaveChangesAsync();
@@ -111,14 +111,14 @@ namespace StreamControl.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // PUT: api/Scoreboards/Player
+        // PUT: api/Scoreboards/PlayerElement
         [HttpPut]
-        [Route("api/Scoreboards/Player")]
+        [Route("api/Scoreboards/PlayerElement")]
         [ResponseType(typeof(void))]
-        public async Task<IHttpActionResult> PutPlayer(int id, Player player)
+        public async Task<IHttpActionResult> PutPlayerElement(int id, PlayerElement playerElement)
         {
             Scoreboard scoreboard = await db.Scoreboards.FirstOrDefaultAsync(i => i.ScoreboardID == id);
-            scoreboard.Players.Add(player);
+            scoreboard.PlayerElements.Add(playerElement);
             try
             {
                 await db.SaveChangesAsync();
@@ -203,11 +203,11 @@ namespace StreamControl.Controllers
             return db.Scoreboards.Count(e => e.ScoreboardID == id) > 0;
         }
 
-        private async Task UpdateFields(ICollection<Field> fields)
+        private async Task updateTextElements(ICollection<TextElement> textElements)
         {
-            foreach (Field field in fields)
+            foreach (TextElement textElement in textElements)
             {
-                db.Entry(field).State = EntityState.Modified;
+                db.Entry(textElement).State = EntityState.Modified;
             }
 
             try
@@ -220,11 +220,11 @@ namespace StreamControl.Controllers
             }
         }
 
-        private async Task UpdatePlayers(ICollection<Player> players)
+        private async Task UpdatePlayerElements(ICollection<PlayerElement> playerElements)
         {
-            foreach (Player player in players)
+            foreach (PlayerElement playerElement in playerElements)
             {
-                db.Entry(player).State = EntityState.Modified;
+                db.Entry(playerElement).State = EntityState.Modified;
             }
 
             try
