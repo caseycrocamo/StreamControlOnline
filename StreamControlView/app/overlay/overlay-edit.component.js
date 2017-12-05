@@ -1,7 +1,7 @@
 ﻿(function () {
     angular.module("main").component("overlayEdit", {
         bindings: {
-            OverlayID: "<"
+            overlayId: "<"
         },
         controllerAs: "vm",
         controller: ["overlayResource", "$location", "$timeout", function (overlayResource, $location, $timeout) {
@@ -10,7 +10,7 @@
             vm.message = 'loading...';
 
             vm.$onInit = function () {
-                overlayResource.get({ id: vm.OverlayID })
+                overlayResource.get({ id: vm.overlayId })
                     .$promise
                     .then(
                     //on success
@@ -35,9 +35,9 @@
 
                 vm.save = function () {
                     vm.message = "saving...";
-                    overlayResource.update({ id: vm.OverlayID }, vm.overlay).$promise.then(function () {
+                    overlayResource.update({ id: vm.overlayId }, vm.overlay).$promise.then(function () {
                         vm.message = "wow you saved!";
-                        overlayResource.get({ id: vm.OverlayID }).$promise.then(function (data) {
+                        overlayResource.get({ id: vm.overlayId }).$promise.then(function (data) {
                             vm.overlay = data;
                             vm.originaloverlay = angular.copy(data);
                         });

@@ -7,7 +7,7 @@ namespace StreamControl.Models
 {
     public class Overlay
     {
-        public int OverlayID { get; set; }
+        public int ScoreboardID { get; set; }
         public string OwnerID { get; set; }
         public string Name { get; set; }
         public virtual ICollection<Element> Elements { get; set; }

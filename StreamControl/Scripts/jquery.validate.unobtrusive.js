@@ -41,8 +41,8 @@
         return value.replace(/([!"#$%&'()*+,./:;<=>?@\[\\\]^`{|}~])/g, "\\$1");
     }
 
-    function getModelPrefix(elementName) {
-        return elementName.substr(0, elementName.lastIndexOf(".") + 1);
+    function getModelPrefix(fieldName) {
+        return fieldName.substr(0, fieldName.lastIndexOf(".") + 1);
     }
 
     function appendModelPrefix(value, prefix) {
@@ -57,7 +57,7 @@
             replaceAttrValue = container.attr("data-valmsg-replace"),
             replace = replaceAttrValue ? $.parseJSON(replaceAttrValue) !== false : null;
 
-        container.removeClass("element-validation-valid").addClass("element-validation-error");
+        container.removeClass("field-validation-valid").addClass("field-validation-error");
         error.data("unobtrusiveContainer", container);
 
         if (replace) {
@@ -89,7 +89,7 @@
             replace = replaceAttrValue ? $.parseJSON(replaceAttrValue) : null;
 
         if (container) {
-            container.addClass("element-validation-valid").removeClass("element-validation-error");
+            container.addClass("field-validation-valid").removeClass("field-validation-error");
             error.removeData("unobtrusiveContainer");
 
             if (replace) {
@@ -115,9 +115,9 @@
         $form.find(".validation-summary-errors")
             .addClass("validation-summary-valid")
             .removeClass("validation-summary-errors");
-        $form.find(".element-validation-error")
-            .addClass("element-validation-valid")
-            .removeClass("element-validation-error")
+        $form.find(".field-validation-error")
+            .addClass("field-validation-valid")
+            .removeClass("field-validation-error")
             .removeData("unobtrusiveContainer")
             .find(">*")  // If we were using valmsg-replace, get the underlying error
                 .removeData("unobtrusiveContainer");
@@ -386,7 +386,7 @@
             setValidationValues(options, "required", true);
         }
     });
-    adapters.add("remote", ["url", "type", "additionalelements"], function (options) {
+    adapters.add("remote", ["url", "type", "additionalfields"], function (options) {
         var value = {
             url: options.params.url,
             type: options.params.type || "GET",
@@ -394,18 +394,18 @@
         },
             prefix = getModelPrefix(options.element.name);
 
-        $.each(splitAndTrim(options.params.additionalelements || options.element.name), function (i, elementName) {
-            var paramName = appendModelPrefix(elementName, prefix);
+        $.each(splitAndTrim(options.params.additionalfields || options.element.name), function (i, fieldName) {
+            var paramName = appendModelPrefix(fieldName, prefix);
             value.data[paramName] = function () {
-                var element = $(options.form).find(":input").filter("[name='" + escapeAttributeValue(paramName) + "']");
-                // For checkboxes and radio buttons, only pick up values from checked elements.
-                if (element.is(":checkbox")) {
-                    return element.filter(":checked").val() || element.filter(":hidden").val() || '';
+                var field = $(options.form).find(":input").filter("[name='" + escapeAttributeValue(paramName) + "']");
+                // For checkboxes and radio buttons, only pick up values from checked fields.
+                if (field.is(":checkbox")) {
+                    return field.filter(":checked").val() || field.filter(":hidden").val() || '';
                 }
-                else if (element.is(":radio")) {
-                    return element.filter(":checked").val() || '';
+                else if (field.is(":radio")) {
+                    return field.filter(":checked").val() || '';
                 }
-                return element.val();
+                return field.val();
             };
         });
 

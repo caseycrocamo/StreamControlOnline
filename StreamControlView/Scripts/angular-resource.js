@@ -30,7 +30,7 @@ function lookupDottedPath(obj, path) {
 }
 
 /**
- * Create a shallow copy of an object and clear other elements from the destination
+ * Create a shallow copy of an object and clear other fields from the destination
  */
 function shallowClearAndCopy(src, dst) {
   dst = dst || {};
@@ -291,7 +291,7 @@ function shallowClearAndCopy(src, dst) {
  *
  *   - `toJSON`: It returns a simple object without any of the extra properties added as part of
  *     the Resource API. This object can be serialized through {@link angular.toJson} safely
- *     without attaching Angular-specific elements. Notice that `JSON.stringify` (and
+ *     without attaching Angular-specific fields. Notice that `JSON.stringify` (and
  *     `angular.toJson`) automatically use this method when serializing a Resource instance
  *     (see [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify#toJSON%28%29_behavior)).
  *

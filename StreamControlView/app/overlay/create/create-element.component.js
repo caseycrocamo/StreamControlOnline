@@ -7,12 +7,12 @@
         controller: ["overlayResource", "$state", "$timeout", function (overlayResource, $state, $timeout) {
             var vm = this;
             vm.$onInit = function () {
-                vm.elements = [];
+                vm.fields = [];
                 vm.players = [];
             }
 
-            vm.addelement = function () {
-                vm.elements.push({
+            vm.addField = function () {
+                vm.fields.push({
                     Label: ""
                 });
             }
@@ -29,7 +29,7 @@
 
             vm.save = function () {
                 vm.overlay.Players = vm.players;
-                vm.overlay.elements = vm.elements;
+                vm.overlay.Fields = vm.fields;
                 $state.go("overlayCreate.view", { overlay: vm.overlay });
             };
         }],

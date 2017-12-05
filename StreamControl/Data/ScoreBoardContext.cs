@@ -5,27 +5,26 @@ namespace StreamControl.Data
     using System.Linq;
     using System.Data.Entity;
 
-    public class OverlayContext : DbContext
+    public class ScoreBoardContext : DbContext
     {
-        public OverlayContext() : base("OverlayContext")
+        public ScoreBoardContext() : base("ScoreBoardContext")
         {
         }
 
         public DbSet<Player> Players { get; set; }
-        public DbSet<Overlay> Overlays { get; set; }
+        public DbSet<Overlay> Scoreboards { get; set; }
         public DbSet<Style> Styles { get; set; }
         public DbSet<View> Views { get; set; }
-        public DbSet<PlayerElement> PlayerElements { get; set; }
-        public DbSet<TextElement> TextElements { get; set; }
+        public DbSet<Element> Fields { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Style>().ToTable("Style");
             modelBuilder.Entity<Player>().ToTable("Player");
             modelBuilder.Entity<View>().ToTable("View");
-            modelBuilder.Entity<PlayerElement>().ToTable("PlayerElement");
-            modelBuilder.Entity<TextElement>().ToTable("TextElement");
-            modelBuilder.Entity<Overlay>().ToTable("Overlay");
+            modelBuilder.Entity<Element>().ToTable("Field");
+            modelBuilder.Entity<Overlay>().ToTable("Scoreboard");
+
         }
     }
 }

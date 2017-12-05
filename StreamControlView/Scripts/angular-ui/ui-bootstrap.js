@@ -1216,9 +1216,9 @@ angular.module('ui.bootstrap.dateparser', [])
         results = input.match(regex),
         tzOffset = false;
     if (results && results.length) {
-      var elements, dt;
+      var fields, dt;
       if (angular.isDate(baseDate) && !isNaN(baseDate.getTime())) {
-        elements = {
+        fields = {
           year: baseDate.getFullYear(),
           month: baseDate.getMonth(),
           date: baseDate.getDate(),
@@ -1231,7 +1231,7 @@ angular.module('ui.bootstrap.dateparser', [])
         if (baseDate) {
           $log.warn('dateparser:', 'baseDate is not a valid date');
         }
-        elements = { year: 1900, month: 0, date: 1, hours: 0, minutes: 0, seconds: 0, milliseconds: 0 };
+        fields = { year: 1900, month: 0, date: 1, hours: 0, minutes: 0, seconds: 0, milliseconds: 0 };
       }
 
       for (var i = 1, n = results.length; i < n; i++) {
@@ -1241,7 +1241,7 @@ angular.module('ui.bootstrap.dateparser', [])
         }
 
         if (mapper.apply) {
-          mapper.apply.call(elements, results[i]);
+          mapper.apply.call(fields, results[i]);
         }
       }
 
@@ -1250,17 +1250,17 @@ angular.module('ui.bootstrap.dateparser', [])
       var timesetter = tzOffset ? Date.prototype.setUTCHours :
         Date.prototype.setHours;
 
-      if (isValid(elements.year, elements.month, elements.date)) {
+      if (isValid(fields.year, fields.month, fields.date)) {
         if (angular.isDate(baseDate) && !isNaN(baseDate.getTime()) && !tzOffset) {
           dt = new Date(baseDate);
-          datesetter.call(dt, elements.year, elements.month, elements.date);
-          timesetter.call(dt, elements.hours, elements.minutes,
-            elements.seconds, elements.milliseconds);
+          datesetter.call(dt, fields.year, fields.month, fields.date);
+          timesetter.call(dt, fields.hours, fields.minutes,
+            fields.seconds, fields.milliseconds);
         } else {
           dt = new Date(0);
-          datesetter.call(dt, elements.year, elements.month, elements.date);
-          timesetter.call(dt, elements.hours || 0, elements.minutes || 0,
-            elements.seconds || 0, elements.milliseconds || 0);
+          datesetter.call(dt, fields.year, fields.month, fields.date);
+          timesetter.call(dt, fields.hours || 0, fields.minutes || 0,
+            fields.seconds || 0, fields.milliseconds || 0);
         }
       }
 

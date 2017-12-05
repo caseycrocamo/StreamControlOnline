@@ -11,7 +11,7 @@
                 "getAll": { method: "GET", url: appSettings.serverPath + "api/overlays", isArray: true },
                 "create": { method: "POST", url: appSettings.serverPath + "api/overlays" },
                 "update": { method: "PUT" },
-                "updateelement": { method: "PUT", url: appSettings.serverPath + "api/overlays/element" },
+                "updateField": { method: "PUT", url: appSettings.serverPath + "api/overlays/Field" },
                 "updatePlayer": { method: "PUT", url: appSettings.serverPath + "api/overlays/Player" },
                 "updateStyle": { method: "PUT", url: appSettings.serverPath + "api/overlays/Style" }
             });

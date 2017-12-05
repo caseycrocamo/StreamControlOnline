@@ -8,8 +8,8 @@
                         <div class="overlayTitle">
                             <h4 class="titleWord">{{s.Name}}</h4>
                             <div class="titleIconContainer">
-                                <div style="cursor:pointer;" class="glyphicon glyphicon-remove titleIcon" ng-click="vm.remove(s.OverlayID)"></div>
-                                <a class="glyphicon glyphicon-cog titleIcon" ui-sref="overlay.edit({ OverlayID: s.OverlayID })" href></a>
+                                <div style="cursor:pointer;" class="glyphicon glyphicon-remove titleIcon" ng-click="vm.remove(s.overlayID)"></div>
+                                <a class="glyphicon glyphicon-cog titleIcon" ui-sref="overlay.edit({ overlayId: s.overlayID })" href></a>
                             </div>
                         </div>
                         <div class="overlayBody">
@@ -17,11 +17,11 @@
                                 <div class="viewItemBackground">
                                     <div ng-repeat="v in s.Views" class="viewItem">
                                         <div class="viewItemBody">
-                                            <div class="viewItemTitle" ui-sref="overlay.view({ OverlayID: s.OverlayID, viewId: v.ViewID })" href>{{v.Name}}</div>
+                                            <div class="viewItemTitle" ui-sref="overlay.view({ overlayId: s.overlayID, viewId: v.ViewID })" href>{{v.Name}}</div>
                                             <div class="viewItemLeft">
                                                 <div class="glyphicon glyphicon-chevron-left"></div>
                                             </div>
-                                            <div class="viewItemCenter" ui-sref="overlay.viewEdit({ OverlayID: s.OverlayID, viewId: v.ViewID })" href>
+                                            <div class="viewItemCenter" ui-sref="overlay.viewEdit({ overlayId: s.overlayID, viewId: v.ViewID })" href>
                                                 <div class="glyphicon glyphicon-eye-open"></div>
                                             </div>
                                             <div class="viewItemRight">

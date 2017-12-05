@@ -20,7 +20,7 @@ namespace StreamControl
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            OverlayContext context = new OverlayContext();
+            ScoreBoardContext context = new ScoreBoardContext();
 
             DbInitializer.Initialize(context);
         }

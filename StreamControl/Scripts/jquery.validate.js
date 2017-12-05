@@ -291,7 +291,7 @@ $.extend( $.validator, {
 		},
 		onkeyup: function( element, event ) {
 
-			// Avoid revalidate the element when pressing one of the following keys
+			// Avoid revalidate the field when pressing one of the following keys
 			// Shift       => 16
 			// Ctrl        => 17
 			// Alt         => 18
@@ -349,8 +349,8 @@ $.extend( $.validator, {
 	},
 
 	messages: {
-		required: "This element is required.",
-		remote: "Please fix this element.",
+		required: "This field is required.",
+		remote: "Please fix this field.",
 		email: "Please enter a valid email address.",
 		url: "Please enter a valid URL.",
 		date: "Please enter a valid date.",
@@ -427,7 +427,7 @@ $.extend( $.validator, {
 				$( this.currentForm ).on( "invalid-form.validate", this.settings.invalidHandler );
 			}
 
-			// Add aria-required to any Static/Data/Class required elements before first validation
+			// Add aria-required to any Static/Data/Class required fields before first validation
 			// Screen readers require this attribute to be present before the initial submission http://www.w3.org/TR/WCAG-TECHS/ARIA2.html
 			$( this.currentForm ).find( "[required], [data-rule-required], .required" ).attr( "aria-required", "true" );
 		},
@@ -758,7 +758,7 @@ $.extend( $.validator, {
 				try {
 					result = $.validator.methods[ method ].call( this, val, element, rule.parameters );
 
-					// If a method indicates that the element is optional and therefore valid,
+					// If a method indicates that the field is optional and therefore valid,
 					// don't mark it as valid when there are no other rules
 					if ( result === "dependency-mismatch" && rulesCount === 1 ) {
 						dependencyMismatch = true;
@@ -1461,7 +1461,7 @@ $.extend( $.validator, {
 		// http://jqueryvalidation.org/equalTo-method/
 		equalTo: function( value, element, param ) {
 
-			// Bind to the blur event of the target in order to revalidate whenever the target element is updated
+			// Bind to the blur event of the target in order to revalidate whenever the target field is updated
 			var target = $( param );
 			if ( this.settings.onfocusout && target.not( ".validate-equalTo-blur" ).length ) {
 				target.addClass( "validate-equalTo-blur" ).on( "blur.validate-equalTo", function() {
