@@ -1,6 +1,7 @@
 ﻿<div class="form-group">
     <label for="name">Name</label>
-    <input class="form-control" id="name" ng-model="vm.name" />
+    <input class="form-control" id="name" name="name" ng-model="vm.name" required />
+    <span class="label-danger" ng-show="vm.invalidName">Name is required.</span>
 </div>
 <div class="form-group">
     <input type="button" class="btn btn-secondary" ng-click="vm.returnToList()" value="Return To List" />

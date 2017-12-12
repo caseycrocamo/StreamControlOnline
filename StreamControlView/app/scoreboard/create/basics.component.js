@@ -9,6 +9,7 @@
             };
             vm.name = "";
             vm.message = 'loading...';
+            vm.invalidName = false;
 
             vm.$onInit = function () {
                 vm.returnToList = function () {
@@ -16,10 +17,13 @@
                 };
 
                 vm.save = function () {
-                    vm.message = "saving...";
-                    vm.scoreboard.Name = vm.name;
-                    
-                    $state.go("scoreboardCreate.element", { scoreboard: vm.scoreboard });
+                    if (vm.name.length < 1) {
+                        vm.invalidName = true;
+                    }
+                    else {
+                        vm.scoreboard.Name = vm.name;
+                        $state.go("scoreboardCreate.element", { scoreboard: vm.scoreboard });
+                    }
                 };
 
             }
