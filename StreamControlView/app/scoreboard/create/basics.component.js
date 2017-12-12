@@ -17,7 +17,7 @@
                 };
 
                 vm.save = function () {
-                    if (vm.name.length < 1) {
+                    if (vm.name.length < 1 || angular.isUndefined(vm.name)) {
                         vm.invalidName = true;
                     }
                     else {

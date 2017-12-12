@@ -134,3 +134,11 @@
     padding:10px;
     margin:auto;
 }
+.createElement {
+    height: 500px;
+    background-color:blue;
+}
+.createElementScoreboard {
+    height: 500px;
+    background-color: red;
+}
