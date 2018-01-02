@@ -32,12 +32,25 @@
                         let cssString = "";
                         angular.forEach(vm.view.Style[i], function (value, key) {
                             if (key != "StyleID" && key != "DivID" && value != null) {
-                                cssString += key + ":" + value + ";";
-                            }
-                            if (vm.showBox) {
-                                cssString += "outline:1px dashed black;";
+                                let cssKey = '';
+                                let splitAtCaps = key.match(/([A-Z]?[^A-Z]*)/g).slice(0, -1);
+                                //console.log(splitAtCaps);
+                                if (splitAtCaps.length == 1) {
+                                    cssKey = key;
+                                }
+                                else {
+                                    cssKey = splitAtCaps[0];
+                                    for (let i = 1; i < splitAtCaps.length; i++) {
+                                        cssKey += "-" + splitAtCaps[i];
+                                    }
+                                }
+                                //console.log(cssKey);
+                                cssString += cssKey + ":" + value + ";";
                             }
                         });
+                        if (vm.showBox) {
+                            cssString += "outline:1px dashed black;";
+                        }
                         console.log(cssString);
                         document.getElementById(vm.view.Style[i].DivID).style.cssText = cssString;
                     }

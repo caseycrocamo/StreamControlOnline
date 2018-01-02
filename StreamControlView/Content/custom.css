@@ -136,9 +136,11 @@
 }
 .createElement {
     height: 500px;
-    background-color:blue;
+    background-color:white;
+    outline: 1px dotted red;
 }
 .createElementScoreboard {
     height: 500px;
-    background-color: red;
+    background-color: white;
+    outline: 1px dotted blue;
 }

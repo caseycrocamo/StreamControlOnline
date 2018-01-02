@@ -6,7 +6,7 @@
                 viewId: "<"
             },
             controllerAs: "vm",
-            controller: ["scoreboardResource", "authService", "$scope", "$filter", function (scoreboardResource, authService, $scope, $filter) {
+            controller: ["scoreboardResource", "authService", "$scope", "$filter", "$location", function (scoreboardResource, authService, $scope, $filter, $location) {
                 var vm = this;
                 vm.scoreboard = null;
                 vm.message = "loading...";
